@@ -31,7 +31,7 @@
                         title="Vice-Président"
                         promotion="EPL/S 2017"
                         job="Instructeur Aéroclub Les Alcyons"
-                        photo="{{ asset('media/leadership/hugo.clarke-wing.jpg') }}"
+                        photo="{{ asset('media/leadership/jeff.mhanna.jpg') }}"
                         linkedin-url="https://www.linkedin.com/in/jeff-mhanna-865a351bb/"
                     >
                         <x-slot name="description">
@@ -83,7 +83,7 @@
                         title="Community Manager"
                         promotion="EPL/S 2017"
                         job="Instructeur Cretan Eagle Aviation"
-                        photo="{{ asset('media/leadership/hugo.clarke-wing.jpg') }}"
+                        photo="{{ asset('media/leadership/felix.fouache.jpg') }}"
                         linkedin-url="https://www.linkedin.com/in/felixfouache/"
                     >
                         <x-slot name="description">

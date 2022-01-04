@@ -8,6 +8,15 @@ module.exports = {
         './resources/**/*.vue',
     ],
 
+    safelist: [
+        {
+            pattern: /bg-(blue|green|yellow|red)-50/,
+        },
+        {
+            pattern: /text-(blue|green|yellow|red)-(400|700|800)/,
+        },
+    ],
+
     theme: {
         extend: {
             colors: {

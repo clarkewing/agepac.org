@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('epl/selection', 'selection');
+
 Route::view('association/leadership', 'leadership');
