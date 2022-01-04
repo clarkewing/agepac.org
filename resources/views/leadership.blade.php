@@ -213,7 +213,7 @@
                     <x-leadership.card-simple
                         name="Lilian Berquier"
                         title="Responsable Promotion EPL/S 2018"
-                        photo="{{ asset('media/leadership/adrian-lucq-bibiloni.jpg') }}"
+                        photo="{{ asset('media/leadership/lilian.berquier.jpg') }}"
                     />
 
                     <x-leadership.card-simple

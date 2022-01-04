@@ -100,7 +100,7 @@
     </div>
 
     <div
-        class="absolute top-0 inset-x-0 p-2 origin-top-right md:hidden"
+        class="absolute z-10 top-0 inset-x-0 p-2 origin-top-right md:hidden"
         x-show="mobileMenuOpen"
         x-transition:enter="transition ease-out duration-200"
         x-transition:enter-start="opacity-0 scale-95"
