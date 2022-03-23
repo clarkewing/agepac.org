@@ -3,7 +3,7 @@
         <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
             <img
                 class="object-cover object-top shadow-lg rounded-lg"
-                src="{{ $photo }}"
+                src="{{ $photo ?? asset('media/leadership/' . Str::of($name)->slug() . '.jpg') }}"
                 alt="{{ $name }}"
             />
         </div>
@@ -17,7 +17,7 @@
                         @isset($job) – {{ $job }} @endisset
                     </p>
                 </div>
-                <div class="text-lg">
+                <div class="text-base">
                     <p class="text-gray-500">{{ $description }}</p>
                 </div>
                 <ul class="relative flex space-x-5">

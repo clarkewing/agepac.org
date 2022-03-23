@@ -3,7 +3,7 @@
         <div class="mx-auto h-20 w-20 rounded-full overflow-hidden lg:w-24 lg:h-24">
             <img
                 class="h-full w-full object-cover"
-                src="{{ $photo }}"
+                src="{{ $photo ?? asset('media/leadership/' . Str::of($name)->slug() . '.jpg') }}"
                 alt="{{ $name }}"
             />
         </div>
