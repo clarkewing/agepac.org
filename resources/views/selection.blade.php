@@ -17,7 +17,7 @@
                                 Découvre le Guide EPL, régulièrement mis à jour.
                             </p>
                             <a
-                                class="mt-3 flex w-full sm:flex-shrink-0 sm:inline-flex sm:w-auto items-center justify-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                class="mt-3 flex w-full sm:shrink-0 sm:inline-flex sm:w-auto items-center justify-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                                 href="#"
                             >
                                 <x-heroicon-o-download class="-ml-1 mr-3 h-5 w-5" />
