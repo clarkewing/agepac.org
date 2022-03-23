@@ -48,11 +48,11 @@
             <h3 class="text-3xl font-extrabold tracking-tight text-gray-700">
                 Conditions générales
             </h3>
-            <div class="max-w-3xl space-y-8">
+            <div class="max-w-3xl">
                 <p class="mt-4 text-lg text-gray-500">
                     Les conditions générales auxquelles votre demande doit obligatoirement répondre :
                 </p>
-                <ul class="mt-2 list-disc text-lg text-gray-500">
+                <ul class="mt-2 ml-6 list-disc text-lg text-gray-500">
                     <li>
                         L’AGEPAC évalue chaque demande individuellement. Les prises de vue ne peuvent contenir aucun
                         élément susceptible de pouvoir affecter l’AGEPAC et/ou ses partenaires.
