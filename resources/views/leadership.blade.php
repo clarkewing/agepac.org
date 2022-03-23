@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Gouvernance">
     <x-slot name="header">
         <h2 class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl py-4 border-b">Gouvernance</h2>
     </x-slot>
