@@ -172,6 +172,11 @@
                     />
 
                     <x-leadership.card-simple
+                        name="Erwan Marlier"
+                        title="Responsable Promotion EPL/S 2013"
+                    />
+
+                    <x-leadership.card-simple
                         name="Timothée Barry"
                         title="Responsable Promotion EPL/S 2014"
                     />
