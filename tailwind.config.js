@@ -21,7 +21,16 @@ module.exports = {
         extend: {
             colors: {
                 'universe': '#000A33',
-                'dandelion': '#F4DA5E',
+                'dandelion-50': '#FDF5CF',
+                'dandelion-100': '#FBEDA9',
+                'dandelion-200': '#F8E483',
+                'dandelion-300': '#F4DA5E',
+                'dandelion-400': '#EFD03A',
+                'dandelion-500': '#EAC517',
+                'dandelion-600': '#C3A514',
+                'dandelion-700': '#9D8512',
+                'dandelion-800': '#77650F',
+                'dandelion-900': '#52450C',
                 'vermilion': '#F95A38',
                 'tiara': '#D3DAD9',
                 'wedgewood': '#4B8AA2',
