@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::view('epl/selection', 'selection');
 
+Route::view('association', 'about');
 Route::view('association/leadership', 'leadership');
 
 Route::view('press', 'press');
