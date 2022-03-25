@@ -11,8 +11,8 @@
             </div>
 
             <div class="relative lg:col-span-1">
-                <h1 class="text-white text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                    À propos
+                <h1 class="text-white text-4xl font-extrabold tracking-tight sm:text-5xl">
+                    Qui sommes-nous ?
                 </h1>
             </div>
         </div>
@@ -64,11 +64,11 @@
                             <dd class="text-3xl font-extrabold tracking-tight text-gray-900">300</dd>
                         </div>
                     </dl>
-                    <div class="mt-10">
-                        <a href="/association/leadership" class="text-base font-medium text-shiraz hover:underline">
-                            Rencontrez notre équipe <span aria-hidden="true">&rarr;</span>
-                        </a>
-                    </div>
+{{--                    <div class="mt-10">--}}
+{{--                        <a href="#" class="text-base font-medium text-shiraz hover:underline">--}}
+{{--                            Découvrez nos actions <span aria-hidden="true">&rarr;</span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
                 </div>
             </div>
 
@@ -118,8 +118,8 @@
         </div>
     </div>
 
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <!-- Values section -->
+    <div class="relative mx-auto max-w-md py-12 px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl mt-8 lg:mt-16">
         <svg class="hidden lg:block absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/3" width="404" height="468" fill="none" viewBox="0 0 404 468" aria-hidden="true">
             <defs>
                 <pattern id="8b1b5f72-e944-4457-af67-0c6d15a99f38" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -180,7 +180,7 @@
     </div>
 
     <!-- Partners logo cloud section -->
-    <div class="mt-32">
+    <div class="mt-16 md:mt-24">
         <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
                 <div>
@@ -246,7 +246,7 @@
     </div>
 
     <!-- CTA section -->
-    <div class="relative overflow-hidden mt-24 sm:mt-32 sm:py-16">
+    <div class="relative overflow-hidden mt-24 sm:mt-32 pb-8 sm:py-16">
         <div aria-hidden="true" class="hidden sm:block">
             <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"></div>
             <svg class="absolute top-8 left-1/2 -ml-3" width="404" height="392" fill="none" viewBox="0 0 404 392">
@@ -258,31 +258,113 @@
                 <rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
             </svg>
         </div>
-        <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-            <div class="relative rounded-2xl px-6 py-10 bg-rose-500 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+        <a
+            class="group block mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
+            href="/association/leadership"
+        >
+            <div class="relative rounded-2xl px-6 py-10 bg-dandelion-500 group-hover:bg-dandelion-400 overflow-hidden shadow-xl sm:px-12 sm:py-20">
                 <div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
                     <svg class="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">
-                        <path class="text-rose-400 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
-                        <path class="text-rose-600 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
+                        <path class="text-dandelion-300 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
+                        <path class="text-dandelion-600 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
                     </svg>
                 </div>
                 <div class="relative">
                     <div class="sm:text-center">
-                        <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Get notified when we&rsquo;re launching.</h2>
-                        <p class="mt-6 mx-auto max-w-2xl text-lg text-rose-100">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque.</p>
+                        <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
+                            Rencontrez notre équipe
+                        </h2>
                     </div>
-                    <form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
-                        <div class="min-w-0 flex-1">
-                            <label for="cta-email" class="sr-only">Email address</label>
-                            <input id="cta-email" type="email" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500" placeholder="Enter your email">
+                    <div class="mt-12 lg:flex justify-center -space-y-4 md:-space-x-3 md:space-y-0">
+                        <div class="sm:flex justify-center -space-y-4 sm:-space-x-3 sm:space-y-0">
+                            <div class="flex justify-center -space-x-3">
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/hugo-clarke-wing.jpg') }}"
+                                        alt="Hugo Clarke-Wing"
+                                    />
+                                </div>
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/jeff-mhanna.jpg') }}"
+                                        alt="Jeff Mhanna"
+                                    />
+                                </div>
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/adrian-lucq-bibiloni.jpg') }}"
+                                        alt="Adrián Lucq-Bibiloni"
+                                    />
+                                </div>
+                            </div>
+                            <div class="flex justify-center -space-x-3">
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/slim-khouadja.jpg') }}"
+                                        alt="Slim Khouadja"
+                                    />
+                                </div>
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/marek-madl.jpg') }}"
+                                        alt="Marek Mádl"
+                                    />
+                                </div>
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/felix-fouache.jpg') }}"
+                                        alt="Félix Fouache"
+                                    />
+                                </div>
+                                <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                    <img
+                                        class="h-full w-full object-cover"
+                                        src="{{ asset('media/leadership/julien-thomasson.jpg') }}"
+                                        alt="Julien Thomasson"
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div class="mt-4 sm:mt-0 sm:ml-3">
-                            <button type="submit" class="block w-full rounded-md border border-transparent px-5 py-3 bg-gray-900 text-base font-medium text-white shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500 sm:px-10">Notify me</button>
+                        <div class="flex justify-center -space-x-3">
+                            <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                <img
+                                    class="h-full w-full object-cover"
+                                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+                                    alt="Tom Guedj"
+                                />
+                            </div>
+                            <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                <img
+                                    class="h-full w-full object-cover"
+                                    src="{{ asset('media/leadership/paul-viviant.jpg') }}"
+                                    alt="Paul Viviant"
+                                />
+                            </div>
+                            <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                <img
+                                    class="h-full w-full object-cover"
+                                    src="{{ asset('media/leadership/theophile-pellissier.jpg') }}"
+                                    alt="Théophile Pellissier"
+                                />
+                            </div>
+                            <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
+                                <img
+                                    class="h-full w-full object-cover"
+                                    src="{{ asset('media/leadership/morgane-maillet.jpg') }}"
+                                    alt="Morgane Maillet"
+                                />
+                            </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 
 </x-app-layout>
