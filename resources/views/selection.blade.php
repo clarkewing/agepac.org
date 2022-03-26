@@ -54,7 +54,7 @@
             <x-pattern.dots class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" />
 
             <x-feature-header>
-                <x-slot name="title">Le Concours</x-slot>
+                <x-slot name="title">Le Concours EPL</x-slot>
                 <x-slot name="description">
                     La formation EPL dispensée à l’ENAC comporte trois voies d’accès "historiques" et une quatrième,
                     plus récente, décrite plus bas.
@@ -200,6 +200,20 @@
             </div>
         </div>
     </div>
+
+    <div class="bg-gray-50 px-8">
+        <div class="relative max-w-2xl lg:max-w-3xl mx-auto">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="relative flex justify-center">
+                <span class="bg-gray-50 px-2 text-gray-500">
+                    <x-heroicon-o-paper-airplane class="h-5 w-5 text-gray-500" aria-hidden="true" />
+                </span>
+            </div>
+        </div>
+    </div>
+
 
     <div class="py-12 bg-gray-50 overflow-hidden">
         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">

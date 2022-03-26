@@ -1,6 +1,6 @@
 <div class="relative">
     <dt>
-        <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-2xl text-white font-bold">
+        <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-2xl text-white font-bold">
             {{ $icon }}
         </div>
         <div class="ml-16 flex items-center justify-between">
@@ -8,7 +8,7 @@
                 {{ $title }}
             </p>
             @isset($badge)
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-wedgewood-100 text-wedgewood-800">
                     {{ $badge }}
                 </span>
             @endisset
