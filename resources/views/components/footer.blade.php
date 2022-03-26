@@ -41,7 +41,7 @@
 
                             <li>
                                 <a href="#" class="text-base text-gray-300 hover:text-white">
-                                    Gouvernance
+                                    Notre équipe
                                 </a>
                             </li>
 

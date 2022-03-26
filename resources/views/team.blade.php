@@ -1,6 +1,12 @@
-<x-app-layout title="Gouvernance">
-    <x-slot name="header">
-        <h2 class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl py-4 border-b">Gouvernance</h2>
+<x-app-layout title="Notre équipe">
+    <x-slot
+        name="header"
+        backdrop="{{ asset('media/convention-modified.jpg') }}"
+        alt="Woman speaking to audience in amphitheatre in front of an AGEPAC logo projected onto the wall"
+    >
+        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Notre équipe
+        </h1>
     </x-slot>
 
     <div class="bg-white">
