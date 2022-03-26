@@ -51,14 +51,7 @@
 
     <div class="py-12 bg-gray-50 overflow-hidden">
         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-            <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
-                <defs>
-                    <pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                    </pattern>
-                </defs>
-                <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
-            </svg>
+            <x-pattern.dots class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" />
 
             <x-feature-header>
                 <x-slot name="title">Le Concours</x-slot>
@@ -128,14 +121,7 @@
                 </div>
 
                 <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-                    <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
-                        <defs>
-                            <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                            </pattern>
-                        </defs>
-                        <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
-                    </svg>
+                    <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />
                     <img
                         class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                         width="490"
@@ -145,14 +131,7 @@
                 </div>
             </div>
 
-            <svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
-                <defs>
-                    <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                    </pattern>
-                </defs>
-                <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
-            </svg>
+            <x-pattern.dots class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" />
 
             <div class="relative mt-12 sm:mt-16 lg:mt-24">
                 <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -209,14 +188,7 @@
                     </div>
 
                     <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-                        <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
-                            <defs>
-                                <pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                                </pattern>
-                            </defs>
-                            <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
-                        </svg>
+                        <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />
                         <img
                             class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                             width="490"
@@ -231,14 +203,7 @@
 
     <div class="py-12 bg-gray-50 overflow-hidden">
         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-            <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
-                <defs>
-                    <pattern id="28079683-d1b2-4893-9c53-f033b76d93e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                    </pattern>
-                </defs>
-                <rect width="404" height="784" fill="url(#28079683-d1b2-4893-9c53-f033b76d93e7)" />
-            </svg>
+            <x-pattern.dots class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" />
 
             <x-feature-header>
                 <x-slot name="title">Le Cycle Préparatoire à l'ATPL</x-slot>
@@ -277,14 +242,7 @@
                 </div>
 
                 <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-                    <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
-                        <defs>
-                            <pattern id="67beaf5d-1663-4c7c-9aa7-4d069f9736c3" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                            </pattern>
-                        </defs>
-                        <rect width="784" height="404" fill="url(#67beaf5d-1663-4c7c-9aa7-4d069f9736c3)" />
-                    </svg>
+                    <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />
                     <img
                         class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                         width="490"
@@ -294,14 +252,7 @@
                 </div>
             </div>
 
-            <svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
-                <defs>
-                    <pattern id="ca2f1ae0-e0a2-4e4a-b308-16ba03a973c6" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                    </pattern>
-                </defs>
-                <rect width="404" height="784" fill="url(#ca2f1ae0-e0a2-4e4a-b308-16ba03a973c6)" />
-            </svg>
+            <x-pattern.dots class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" />
 
             <div class="relative mt-12 sm:mt-16 lg:mt-24">
                 <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -361,14 +312,7 @@
                     </div>
 
                     <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-                        <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
-                            <defs>
-                                <pattern id="2ce10174-4f38-4108-8dda-a7d896659628" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                                </pattern>
-                            </defs>
-                            <rect width="784" height="404" fill="url(#2ce10174-4f38-4108-8dda-a7d896659628)" />
-                        </svg>
+                        <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />
                         <img
                             class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                             width="490"

@@ -77,14 +77,7 @@
             <div class="relative sm:py-16 lg:order-1 lg:py-0 mt-12 sm:mt-8">
                 <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
                     <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
-                    <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
-                        <defs>
-                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
-                    </svg>
+                    <x-pattern.dots class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" />
                 </div>
                 <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
                     <!-- Testimonial card-->
@@ -122,14 +115,7 @@
 
     <!-- Values section -->
     <div class="relative mx-auto max-w-md py-12 px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl mt-8 lg:mt-16">
-        <svg class="hidden lg:block absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/3" width="404" height="468" fill="none" viewBox="0 0 404 468" aria-hidden="true">
-            <defs>
-                <pattern id="8b1b5f72-e944-4457-af67-0c6d15a99f38" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                </pattern>
-            </defs>
-            <rect width="404" height="468" fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)" />
-        </svg>
+        <x-pattern.dots class="hidden lg:block absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/3" width="404" height="468" />
 
         <div class="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
             <div class="lg:col-span-1">
@@ -251,14 +237,7 @@
     <div class="relative overflow-hidden mt-24 sm:mt-32 pb-8 sm:py-16">
         <div aria-hidden="true" class="hidden sm:block">
             <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"></div>
-            <svg class="absolute top-8 left-1/2 -ml-3" width="404" height="392" fill="none" viewBox="0 0 404 392">
-                <defs>
-                    <pattern id="8228f071-bcee-4ec8-905a-2a059a2cc4fb" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                    </pattern>
-                </defs>
-                <rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
-            </svg>
+            <x-pattern.dots class="absolute top-8 left-1/2 -ml-3" width="404" height="392" />
         </div>
         <a
             class="group block mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
