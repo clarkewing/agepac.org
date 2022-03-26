@@ -87,7 +87,7 @@
                             src="{{ asset('media/leadership/hugo-clarke-wing-wide.jpg') }}"
                             alt="Hugo Clarke-Wing"
                         />
-                        <div class="absolute inset-0 bg-wedgewood mix-blend-multiply opacity-60"></div>
+                        <div class="absolute inset-0 bg-wedgewood-500 mix-blend-multiply opacity-60"></div>
                         <div class="absolute inset-0 bg-gradient-to-t from-cyan-700 opacity-90"></div>
                         <div class="relative px-8">
                             <blockquote class="mt-16">

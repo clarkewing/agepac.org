@@ -17,7 +17,7 @@
                     <div class="sm:text-center lg:text-left">
                         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                             <span class="block xl:inline">L’association des</span>
-                            <span class="block text-blue-700 xl:inline">Élèves Pilotes de Ligne</span>
+                            <span class="block text-wedgewood-500 xl:inline">Élèves Pilotes de Ligne</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                             L’AGEPAC est l’Association Générale des Élèves Pilotes de l’Aviation Civile.
@@ -25,12 +25,15 @@
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-800 md:py-4 md:text-lg md:px-10">
+                                <a
+                                    href="/association"
+                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-500 hover:bg-wedgewood-700 md:py-4 md:text-lg md:px-10"
+                                >
                                     En savoir plus
                                 </a>
                             </div>
                             <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">
                                     Nous recruter
                                 </a>
                             </div>
@@ -49,11 +52,11 @@
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 <span class="block">Ancien élève ? Encore en formation ?</span>
-                <span class="block text-blue-600">Découvrez notre espace membres !</span>
+                <span class="block text-wedgewood-600">Découvrez notre espace membres !</span>
             </h2>
             <div class="mt-8 flex lg:mt-0 lg:shrink-0">
                 <div class="inline-flex rounded-md shadow">
-                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-700">
                         Rejoignez-nous
                     </a>
                 </div>
@@ -82,12 +85,12 @@
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-800 md:py-4 md:text-lg md:px-10">
+                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-800 md:py-4 md:text-lg md:px-10">
                                     La Formation
                                 </a>
                             </div>
                             <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">
                                     Le Concours
                                 </a>
                             </div>
@@ -98,11 +101,11 @@
                         <x-pattern.dots-on-solid class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" />
 
                         <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wedgewood-500">
                                 <span class="sr-only">Watch our video to learn more</span>
                                 <img class="w-full" src="{{ asset('media/flightline.jpg') }}" alt="Vue des dérives de nombreux TB20 et d'un CAP10 de l'ENAC">
                                 <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
-                                    <svg class="h-20 w-20 text-blue-500 fill-current" viewBox="0 0 84 84">
+                                    <svg class="h-20 w-20 text-wedgewood-500 fill-current" viewBox="0 0 84 84">
                                         <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
                                         <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
                                     </svg>
@@ -121,7 +124,7 @@
                 <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                     <div class="absolute inset-0">
                         <img class="h-full w-full object-cover object-top" src="{{ asset('media/cone-head.jpg') }}" alt="People working on laptops">
-                        <div class="absolute inset-0 bg-blue-700" style="mix-blend-mode: multiply;"></div>
+                        <div class="absolute inset-0 bg-wedgewood-700" style="mix-blend-mode: multiply;"></div>
                     </div>
                     <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                         <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
@@ -134,7 +137,7 @@
                         </p>
                         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div class="space-y-4 sm:mx-auto">
-                                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-universe bg-white hover:bg-blue-50 sm:px-8">
+                                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-universe bg-white hover:bg-wedgewood-50 sm:px-8">
                                     Nous recruter
                                 </a>
                             </div>
