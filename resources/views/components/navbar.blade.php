@@ -100,7 +100,7 @@
                 </x-flyout-menu>
 
                 <a
-                    href="#"
+                    href="/association"
                     @class([
                         'text-base font-medium',
                         'text-gray-500 hover:text-gray-900' => ! $isOverlayed,
@@ -111,26 +111,26 @@
                 </a>
 
                 <a
-                    href="#"
+                    href="/contact"
                     @class([
                         'text-base font-medium',
                         'text-gray-500 hover:text-gray-900' => ! $isOverlayed,
                         'text-white hover:text-white/75' => $isOverlayed,
                     ])
                 >
-                    Nous Recruter
+                    Contact
                 </a>
             </nav>
             <div class="flex items-center md:ml-12">
                 <a
-                    href="#"
+                    href="https://members.agepac.org"
                     @class([
                         'w-full border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500',
                         'text-white bg-red-700 hover:bg-red-600' => ! $isOverlayed,
                         'text-white bg-white bg-opacity-10 hover:bg-opacity-20' => $isOverlayed,
                     ])
                 >
-                    Faire un don
+                    Espace Membres
                 </a>
             </div>
         </div>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
                 <div class="mt-6 space-y-1">
-                    <a href="#" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
+                    <a href="/" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
                         Accueil
                     </a>
                     <a href="#" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
@@ -175,10 +175,10 @@
                     <a href="#" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
                         La Formation EPL
                     </a>
-                    <a href="#" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
+                    <a href="/association" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
                         Association
                     </a>
-                    <a href="#" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
+                    <a href="/contact" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
                         Nous Recruter
                     </a>
                 </div>
@@ -189,7 +189,7 @@
                 </a>
                 <p class="mt-6 text-center text-base font-medium text-gray-500">
                     Ancien élève ? Encore en formation ?
-                    <a href="#" class="block text-blue-600 hover:text-blue-500">
+                    <a href="https://members.agepac.org" class="block text-blue-600 hover:text-blue-500">
                         Espace Membres
                     </a>
                 </p>

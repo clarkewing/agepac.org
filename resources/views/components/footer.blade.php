@@ -34,26 +34,26 @@
                         </h3>
                         <ul class="mt-4 space-y-4">
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="/association" class="text-base text-gray-300 hover:text-white">
                                     À propos
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="/association/team" class="text-base text-gray-300 hover:text-white">
                                     Notre équipe
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
-                                    Presse
+                                <a href="/press" class="text-base text-gray-300 hover:text-white">
+                                    Presse & médias
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
-                                    Partenaires
+                                <a href="/contact" class="text-base text-gray-300 hover:text-white">
+                                    Contactez-nous
                                 </a>
                             </li>
                         </ul>
@@ -124,21 +124,21 @@
                 </form>
             </div>
         </div>
-        <div class="border-t border-gray-700 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
-            <div>
-                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                    Faire un don
-                </h3>
-                <p class="mt-2 text-base text-gray-300">
-                    Soutenez la mission de l’AGEPAC avec un don
-                </p>
-            </div>
-            <div class="mt-4 lg:mt-0">
-                <button type="button" class="w-full bg-red-700 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">
-                    Faire un don
-                </button>
-            </div>
-        </div>
+{{--        <div class="border-t border-gray-700 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">--}}
+{{--            <div>--}}
+{{--                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">--}}
+{{--                    Faire un don--}}
+{{--                </h3>--}}
+{{--                <p class="mt-2 text-base text-gray-300">--}}
+{{--                    Soutenez la mission de l’AGEPAC avec un don--}}
+{{--                </p>--}}
+{{--            </div>--}}
+{{--            <div class="mt-4 lg:mt-0">--}}
+{{--                <button type="button" class="w-full bg-red-700 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">--}}
+{{--                    Faire un don--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
             <div class="flex space-x-6 md:order-2">
                 <a href="https://www.linkedin.com/company/agepac/" class="text-gray-400 hover:text-gray-300">
