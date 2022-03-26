@@ -320,12 +320,14 @@
                             alt=""
                         />
 
-                        <x-alert class="mt-12 mx-auto max-w-[490px] shadow-xl" type="warning">
-                            Chaque étape de sélection est éliminatoire. A l’issue des quatre étapes, les candidats
-                            seront classés en fonction des notes attribuées ou obtenues au dossier de candidature, à
-                            l’entretien de motivation, à l’oral d’anglais et à l'évaluation scientifique et
-                            aéronautique. Il y a 5 places ouvertes par an.
-                        </x-alert>
+                        <div class="px-4">
+                            <x-alert class="relative mt-12 mx-auto max-w-[490px] shadow-xl" type="warning">
+                                Chaque étape de sélection est éliminatoire. A l’issue des quatre étapes, les candidats
+                                seront classés en fonction des notes attribuées ou obtenues au dossier de candidature, à
+                                l’entretien de motivation, à l’oral d’anglais et à l'évaluation scientifique et
+                                aéronautique. Il y a 5 places ouvertes par an.
+                            </x-alert>
+                        </div>
                     </div>
                 </div>
             </div>
