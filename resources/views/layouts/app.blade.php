@@ -24,14 +24,14 @@
         <div class="min-h-screen bg-gray-100">
             @isset($header)
                 @if($header->attributes->has('backdrop'))
-                    <header class="relative pb-24 bg-sky-800 sm:pb-32">
+                    <header class="relative pb-24 bg-wedgewood sm:pb-32">
                         <div class="absolute inset-0">
                             <img
-                                class="w-full h-full object-cover"
+                                class="w-full h-full object-cover saturate-0"
                                 src="{{ $header->attributes->get('backdrop') }}"
                                 alt="{{ $header->attributes->get('alt') }}"
                             />
-                            <div class="absolute inset-0 bg-gradient-to-l from-sky-800 to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
+                            <div class="absolute inset-0 bg-gradient-to-l from-wedgewood to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
                         </div>
 
                         <x-navbar overlay />
