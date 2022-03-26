@@ -8,7 +8,7 @@
         @if($attributes->has('title'))
             <title>{{ $attributes->get('title') . ' | AGEPAC' }}</title>
         @else
-            <title>AGEPAC</title>
+            <title>AGEPAC – The ENAC Pilot Association</title>
         @endif
 
         <!-- Fonts -->
