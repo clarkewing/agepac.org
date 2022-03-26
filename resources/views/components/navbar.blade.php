@@ -1,5 +1,10 @@
+@php($isOverlayed = $attributes->has('overlay'))
+
 <div
-    class="relative bg-white"
+    @class([
+        'relative',
+        'bg-white' => ! $isOverlayed,
+    ])
     x-data="{ mobileMenuOpen: false }"
     @click.away="mobileMenuOpen = false"
     @close.stop="mobileMenuOpen = false"
@@ -7,15 +12,19 @@
     <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
         <div>
             <a href="/" class="flex">
-                <span class="sr-only">{{ config('app.name', 'Laravel') }}</span>
-                <x-application-logo class="text-universe h-8 w-auto sm:h-10" />
+                <span class="sr-only">AGEPAC</span>
+                <x-application-logo class="h-8 w-auto sm:h-10 {{ $isOverlayed ? 'text-white' : '' }}" />
             </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
             <button
                 type="button"
                 @click="mobileMenuOpen = true"
-                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                @class([
+                    'rounded-md p-2 inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500',
+                    'text-gray-400 hover:text-gray-500 hover:bg-gray-100' => ! $isOverlayed,
+                    'text-white hover:text-white/75' => $isOverlayed,
+                ])
                 aria-expanded="false"
             >
                 <span class="sr-only">Open menu</span>
@@ -24,8 +33,15 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
             <nav class="flex space-x-10">
-                <x-flyout-menu align="center" flyout-classes="max-w-md">
-                    <x-slot name="trigger">
+                <x-flyout-menu
+                    align="center"
+                    flyout-classes="max-w-md"
+                >
+                    <x-slot
+                        name="trigger"
+                        class="{{ $isOverlayed ? 'text-white' : 'text-gray-500' }}"
+                        active-class="{{ $isOverlayed ? 'text-white/75' : 'text-gray-900' }}"
+                    >
                         <span>Être EPL</span>
                     </x-slot>
 
@@ -83,18 +99,39 @@
                     </div>
                 </x-flyout-menu>
 
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a
+                    href="#"
+                    @class([
+                        'text-base font-medium',
+                        'text-gray-500 hover:text-gray-900' => ! $isOverlayed,
+                        'text-white hover:text-white/75' => $isOverlayed,
+                    ])
+                >
                     Association
                 </a>
 
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a
+                    href="#"
+                    @class([
+                        'text-base font-medium',
+                        'text-gray-500 hover:text-gray-900' => ! $isOverlayed,
+                        'text-white hover:text-white/75' => $isOverlayed,
+                    ])
+                >
                     Nous Recruter
                 </a>
             </nav>
             <div class="flex items-center md:ml-12">
-                <button type="button" class="w-full bg-red-700 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">
+                <a
+                    href="#"
+                    @class([
+                        'w-full border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500',
+                        'text-white bg-red-700 hover:bg-red-600' => ! $isOverlayed,
+                        'text-white bg-white bg-opacity-10 hover:bg-opacity-20' => $isOverlayed,
+                    ])
+                >
                     Faire un don
-                </button>
+                </a>
             </div>
         </div>
     </div>

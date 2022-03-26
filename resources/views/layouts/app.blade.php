@@ -22,15 +22,37 @@
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
-            <x-navbar />
-
             @isset($header)
-                <!-- Page Heading -->
-                <header class="bg-white">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
+                @if($header->attributes->has('backdrop'))
+                    <header class="relative pb-24 bg-sky-800 sm:pb-32">
+                        <div class="absolute inset-0">
+                            <img
+                                class="w-full h-full object-cover"
+                                src="{{ $header->attributes->get('backdrop') }}"
+                                alt="{{ $header->attributes->get('alt') }}"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-l from-sky-800 to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
+                        </div>
+
+                        <x-navbar overlay />
+
+                        <!-- Page Heading -->
+                        <div class="relative mt-24 max-w-md mx-auto px-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
+                            {{ $header }}
+                        </div>
+                    </header>
+                @else
+                    <x-navbar />
+
+                    <!-- Page Heading -->
+                    <header class="bg-white">
+                        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                            {{ $header }}
+                        </div>
+                    </header>
+                @endif
+            @else
+                <x-navbar />
             @endisset
 
             <!-- Page Content -->

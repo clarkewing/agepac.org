@@ -1,4 +1,7 @@
-@props(['align' => 'left', 'flyoutClasses' => 'max-w-xs'])
+@props([
+    'align' => 'left',
+    'flyoutClasses' => 'max-w-xs',
+])
 
 @php
     switch ($align) {
@@ -24,16 +27,17 @@
     <button
         type="button"
         @click="open = ! open"
-        class="group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-        :class="{'text-gray-900': open, 'text-gray-500': ! open }"
+        {{ $trigger->attributes->get('class') }}
+        @class([
+            'rounded-md inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500',
+            ...array_map(fn ($c) => 'hover:' . $c, explode(' ', $trigger->attributes->get('active-class') ?? 'text-gray-900'))
+        ])
+        :class="{'{{ $trigger->attributes->get('active-class') ?? 'text-gray-900' }}': open, '{{ $trigger->attributes->get('class') ?? 'text-gray-500' }}': ! open }"
         :aria-expanded="open.toString()"
     >
         {{ $trigger }}
 
-        <x-heroicon-s-chevron-down
-            class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
-            ::class="{'text-gray-600': open, 'text-gray-400': ! open }"
-        />
+        <x-heroicon-s-chevron-down class="ml-2 h-5 w-5" />
     </button>
 
     <div
