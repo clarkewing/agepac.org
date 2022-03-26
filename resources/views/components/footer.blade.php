@@ -10,7 +10,7 @@
                         </h3>
                         <ul class="mt-4 space-y-4">
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="/epl/selection" class="text-base text-gray-300 hover:text-white">
                                     La Sélection
                                 </a>
                             </li>

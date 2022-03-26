@@ -52,7 +52,7 @@
                     </x-slot>
 
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                        <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                        <a href="/epl/selection" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                             <x-heroicon-o-users class="shrink-0 h-6 w-6 text-blue-600" />
                             <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">
