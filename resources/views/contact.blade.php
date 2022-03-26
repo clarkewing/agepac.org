@@ -1,5 +1,9 @@
 <x-app-layout title="Contact">
-    <x-slot name="header" backdrop="{{ asset('media/innsbruck-flight-line.jpg') }}" alt="test">
+    <x-slot
+        name="header"
+        backdrop="{{ asset('media/innsbruck-flight-line.jpg') }}"
+        alt="A couple pilot students walking towards their aircraft on the Innsbruck apron"
+    >
         <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Contactez-nous
         </h1>
