@@ -1,3 +1,5 @@
+@props(['branding' => 'logo'])
+
 @php($isOverlayed = $attributes->has('overlay'))
 
 <div
@@ -13,7 +15,11 @@
         <div>
             <a href="/" class="flex">
                 <span class="sr-only">AGEPAC</span>
-                <x-application-logo class="h-8 w-auto sm:h-10 {{ $isOverlayed ? 'text-white' : '' }}" />
+                @if($branding === 'logo')
+                    <x-application-logo class="h-8 w-auto sm:h-10 {{ $isOverlayed ? 'text-white' : '' }}" />
+                @elseif($branding === 'mark')
+                    <x-application-mark class="h-8 w-auto sm:h-10 {{ $isOverlayed ? 'text-white' : '' }}" />
+                @endif
             </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -121,18 +127,21 @@
                     Contact
                 </a>
             </nav>
-            <div class="flex items-center md:ml-12">
-                <a
-                    href="https://members.agepac.org"
-                    @class([
-                        'w-full border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500',
-                        'text-white bg-white bg-opacity-10 hover:bg-opacity-20' => $isOverlayed,
-                    ])
-                >
-                    Espace Membres
-                </a>
-            </div>
+
+            @unless($attributes->has('compact'))
+                <div class="flex items-center md:ml-12">
+                    <a
+                        href="https://members.agepac.org"
+                        @class([
+                            'w-full border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500',
                             'text-white bg-vermilion-400 hover:bg-vermilion-500' => ! $isOverlayed,
+                            'text-white bg-white bg-opacity-10 hover:bg-opacity-20' => $isOverlayed,
+                        ])
+                    >
+                        Espace Membres
+                    </a>
+                </div>
+            @endunless
         </div>
     </div>
 

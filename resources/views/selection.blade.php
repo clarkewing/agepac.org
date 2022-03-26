@@ -1,5 +1,8 @@
 <x-app-layout>
-    <div class="bg-white">
+    <x-slot
+        name="header"
+        class="bg-white"
+    >
         <div class="pt-6 pb-16 sm:pb-24 lg:pb-32">
             <main class="mt-8 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 lg:mt-18">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -44,7 +47,7 @@
                 </div>
             </main>
         </div>
-    </div>
+    </x-slot>
 
     <div class="py-12 bg-gray-50 overflow-hidden">
         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">

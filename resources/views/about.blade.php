@@ -1,6 +1,8 @@
 <x-app-layout title="À propos" class="bg-white">
-    <!-- Header -->
-    <div class="relative max-w-7xl mx-auto px-4 pb-8 sm:px-6 md:pb-12 lg:px-8 lg:pt-8">
+    <x-slot
+        name="header"
+        class="relative pb-8 md:pb-12 lg:pt-8"
+    >
         <div class="relative pt-36 pb-8 sm:pt-40 sm:pb-12 md:py-36 lg:py-48 px-8 bg-gradient-to-t md:bg-gradient-to-r from-universe via-transparent rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
             <div class="absolute inset-0 opacity-80 filter saturate-120 mix-blend-multiply">
                 <img
@@ -16,7 +18,7 @@
                 </h1>
             </div>
         </div>
-    </div>
+    </x-slot>
 
     <!-- Mission statement section -->
     <div class="relative overflow-hidden">
