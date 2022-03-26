@@ -126,13 +126,13 @@
                     href="https://members.agepac.org"
                     @class([
                         'w-full border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500',
-                        'text-white bg-red-700 hover:bg-red-600' => ! $isOverlayed,
                         'text-white bg-white bg-opacity-10 hover:bg-opacity-20' => $isOverlayed,
                     ])
                 >
                     Espace Membres
                 </a>
             </div>
+                            'text-white bg-vermilion-400 hover:bg-vermilion-500' => ! $isOverlayed,
         </div>
     </div>
 

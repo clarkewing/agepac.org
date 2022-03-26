@@ -138,7 +138,7 @@
             <dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
                 <div>
                     <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion text-white">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
                             <x-heroicon-s-user-group class="h-6 w-6" aria-hidden="true" />
                         </div>
                         <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Solidarité</p>
@@ -148,7 +148,7 @@
 
                 <div>
                     <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion text-white">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
                             <x-heroicon-s-sparkles class="h-6 w-6" aria-hidden="true" />
                         </div>
                         <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Excellence</p>
@@ -158,7 +158,7 @@
 
                 <div>
                     <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion text-white">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
                             <x-heroicon-s-globe class="h-6 w-6" aria-hidden="true" />
                         </div>
                         <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Responsabilité</p>
@@ -168,7 +168,7 @@
 
                 <div>
                     <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion text-white">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
                             <x-fas-hands-helping class="h-6 w-6" aria-hidden="true" />
                         </div>
                         <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Partage</p>

@@ -6,7 +6,7 @@
                     <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:flex-col lg:justify-center">
                         <h1 class="block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                             <span class="text-universe">Alors comme ça tu veux</span>
-                            <span class="text-vermilion">devenir EPL</span>
+                            <span class="text-vermilion-400">devenir EPL</span>
                             <span class="text-universe">?</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
