@@ -184,7 +184,7 @@
                     <div class="col-span-1 flex justify-center py-7 px-8 bg-gray-50">
                         <img
                             class="max-h-14"
-                            src="{{ asset('media/logo_enac.svg') }}"
+                            src="{{ asset('media/logos/enac-logo.svg') }}"
                             alt="ENAC"
                         />
                     </div>
@@ -192,7 +192,7 @@
                     <div class="col-span-1 flex justify-center py-7 px-8 bg-gray-50">
                         <img
                             class="max-h-14"
-                            src="{{ asset('media/logo_snpl.svg') }}"
+                            src="{{ asset('media/logos/snpl-logo.svg') }}"
                             alt="SNPL"
                         />
                     </div>
@@ -200,7 +200,7 @@
                     <div class="col-span-1 flex justify-center py-7 px-8 bg-gray-50">
                         <img
                             class="max-h-14"
-                            src="{{ asset('media/logo_air_france.svg') }}"
+                            src="{{ asset('media/logos/air-france-logo.svg') }}"
                             alt="Air France"
                         />
                     </div>
@@ -208,7 +208,7 @@
                     <div class="col-span-1 flex justify-center py-7 px-8 bg-gray-50">
                         <img
                             class="max-h-14"
-                            src="{{ asset('media/logo_ffa.svg') }}"
+                            src="{{ asset('media/logos/ffa-logo.svg') }}"
                             alt="Fédération Française Aéronautique"
                         />
                     </div>
@@ -216,7 +216,7 @@
                     <div class="col-span-1 flex justify-center py-7 px-8 bg-gray-50">
                         <img
                             class="max-h-14"
-                            src="{{ asset('media/logo_appn.png') }}"
+                            src="{{ asset('media/logos/appn-logo.png') }}"
                             alt="Mirage"
                         />
                     </div>
@@ -224,7 +224,7 @@
                     <div class="col-span-1 flex justify-center py-7 px-8 bg-gray-50">
                         <img
                             class="max-h-14"
-                            src="{{ asset('media/logo_avico_plane.svg') }}"
+                            src="{{ asset('media/logos/avico-logo-with-plane.svg') }}"
                             alt="Avico"
                         />
                     </div>
