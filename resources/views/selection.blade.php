@@ -69,7 +69,7 @@
 
                     <dl class="mt-10 space-y-10">
                         <x-feature-section-item>
-                            <x-slot name="icon">S</x-slot>
+                            <x-slot name="icon" class="bg-wedgewood-500">S</x-slot>
                             <x-slot name="title">Cursus EPL/S (Scientifique)</x-slot>
                             <x-slot name="description">
                                 Le cursus EPL/S (Scientifique) est ouvert aux jeunes ayant un bagage scientifique mais
@@ -84,7 +84,7 @@
                         </x-feature-section-item>
 
                         <x-feature-section-item>
-                            <x-slot name="icon">U</x-slot>
+                            <x-slot name="icon" class="bg-dandelion-300">U</x-slot>
                             <x-slot name="title">Cursus EPL/U (Universitaire)</x-slot>
                             <x-slot name="description">
                                 Le cursus EPL/U (Universitaire) s’adresse à des candidats ayant débuté un cursus
@@ -95,7 +95,7 @@
                         </x-feature-section-item>
 
                         <x-feature-section-item>
-                            <x-slot name="icon">P</x-slot>
+                            <x-slot name="icon" class="bg-vermilion-400">P</x-slot>
                             <x-slot name="title">Cursus EPL/P (Pratique)</x-slot>
                             <x-slot name="description">
                                 Le cursus EPL/P (Pratique) concerne des candidats à un stade déjà bien entamé de leur
@@ -160,7 +160,7 @@
                             <x-feature-section-item>
                                 <x-slot name="icon">2</x-slot>
                                 <x-slot name="title">Les PSY 1</x-slot>
-                                <x-slot name="badge">EPL/S/U/P</x-slot>
+                                <x-slot name="badge" class="bg-gradient-to-br from-wedgewood-500 via-dandelion-300 to-vermilion-400">EPL/S/U/P</x-slot>
                                 <x-slot name="description">
                                     Constitués de tests psychotechniques et psychomoteurs, ils permettent d’évaluer des
                                     aptitudes mentales nécessaires au métier de pilote de ligne telles que l’attention
@@ -172,7 +172,7 @@
                             <x-feature-section-item>
                                 <x-slot name="icon">3</x-slot>
                                 <x-slot name="title">Les PSY 2</x-slot>
-                                <x-slot name="badge">EPL/S/U/P</x-slot>
+                                <x-slot name="badge" class="bg-gradient-to-br from-wedgewood-500 via-dandelion-300 to-vermilion-400">EPL/S/U/P</x-slot>
                                 <x-slot name="description">
                                     Enfin la troisième étape est cruciale car elle permet d’évaluer la capacité au
                                     travail en équipage des candidats et leur motivation. Pour ce faire, les candidats

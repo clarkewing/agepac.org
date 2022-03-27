@@ -1,6 +1,12 @@
 <div class="relative">
     <dt>
-        <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-2xl text-white font-bold">
+        <div
+            {{ $icon->attributes->class([
+                'absolute flex items-center justify-center h-12 w-12 rounded-md font-bold',
+                'bg-universe' => ! Str::contains($icon->attributes->get('class'), 'bg-'),
+                'text-2xl text-white' => ! Str::contains($icon->attributes->get('class'), 'text-'),
+            ]) }}
+        >
             {{ $icon }}
         </div>
         <div class="ml-16 flex items-center justify-between">
@@ -8,7 +14,13 @@
                 {{ $title }}
             </p>
             @isset($badge)
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-wedgewood-100 text-wedgewood-800">
+                <span
+                    {{ $badge->attributes->class([
+                        'inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium',
+                        'bg-wedgewood-100' => ! Str::contains($badge->attributes->get('class'), 'bg-'),
+                        'text-wedgewood-800' => ! Str::contains($badge->attributes->get('class'), 'text-'),
+                    ]) }}
+                >
                     {{ $badge }}
                 </span>
             @endisset
