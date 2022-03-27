@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="La sélection EPL">
     <x-slot
         name="header"
         class="bg-white"
