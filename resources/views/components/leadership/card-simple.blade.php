@@ -1,9 +1,21 @@
+@php
+    if (! isset($photo)) {
+        $slugPhotoPath = 'media/leadership/' . Str::of($name)->slug() . '.jpg';
+
+        if (File::exists(public_path($slugPhotoPath))) {
+            $photo = asset($slugPhotoPath);
+        } else {
+            $photo = 'https://www.placecage.com/c/500/501';
+        }
+    }
+@endphp
+
 <li>
     <div class="space-y-4">
         <div class="mx-auto h-20 w-20 rounded-full overflow-hidden lg:w-24 lg:h-24">
             <img
                 class="h-full w-full object-cover"
-                src="{{ $photo ?? asset('media/leadership/' . Str::of($name)->slug() . '.jpg') }}"
+                src="{{ $photo }}"
                 alt="{{ $name }}"
             />
         </div>

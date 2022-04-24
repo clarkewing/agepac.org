@@ -27,7 +27,8 @@
                         linkedin-url="https://www.linkedin.com/in/mrhugo"
                     >
                         <x-slot name="description">
-                            Après un premier mandat au Bureau de l'AGEPAC entre 2019 et 2020 en tant que Secrétaire Général, Hugo est élu Président en 2020. Il est incapable de sourire les yeux ouvert.
+                            Après un premier mandat au Bureau de l'AGEPAC entre 2019 et 2020 en tant que Secrétaire
+                            Général, Hugo est élu Président en 2020. Il est incapable de sourire les yeux ouvert.
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -39,7 +40,8 @@
                         linkedin-url="https://www.linkedin.com/in/jeff-mhanna-865a351bb/"
                     >
                         <x-slot name="description">
-                            Responsable Événements de 2019 à 2020, Jeff accède au poste de Vice-Président en 2020. Tel parrain, tel filleul : Il est incapable de sourire les yeux ouverts.
+                            Responsable Événements de 2019 à 2020, Jeff accède au poste de Vice-Président en 2020. Tel
+                            grand-parrain, tel petit-filleul : Il est incapable de sourire les yeux ouverts.
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -51,7 +53,9 @@
                         linkedin-url="https://www.linkedin.com/in/adrian-lucq/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Maître de l’efficacité, Adrián a su trouver le parfait équilibre entre rédaction de comptes-
+                            rendus et pause piscine. Mais ne vous laissez pas berner par son sourire charmeur, ses
+                            doodles mensuels sauront vous agacer.
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -63,7 +67,9 @@
                         linkedin-url="https://www.linkedin.com/in/slim-khouadja-9688b8154/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Collectionneur de t-shirts lors des événements, Slim a toujours eu le flair des bon plans.
+                            Trésorier de l’AGEPAC depuis deux ans, Slim manie aujourd’hui les comptes de l’association
+                            aussi efficacement que sa guitare.
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -75,7 +81,8 @@
                         linkedin-url="https://www.linkedin.com/in/marekmadl/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Expert en instruction à la tchèque et en SOP’s polonaises, Marek cache également d'autres
+                            talents. Il a su raviver les couleurs de l’AGEPAC par ses vidéos d'aviation.
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -87,7 +94,9 @@
                         linkedin-url="https://www.linkedin.com/in/felixfouache/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Devenu célèbre grâce à la rédaction du premier recueil de memes de Païlotes, Félix met
+                            aujourd’hui sa plume au service de l’AGEPAC. Pour rédiger un compte-rendu ou une belle
+                            lettre au ministre ? Non ! Les réseaux sociaux ça lui suffit.
                         </x-slot>
                     </x-leadership.card-detailed>
 
