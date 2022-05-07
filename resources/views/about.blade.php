@@ -97,7 +97,7 @@
                                     </svg>
                                     <p class="relative">
                                         L’AGEPAC — au-delà d’être une force de persuasion aux côtés de nos divers
-                                        partenaires — c’est une belle bande de copains qui se retrouvent autour
+                                        partenaires — c’est une belle bande de copines et de copains qui se retrouvent autour
                                         de leur passion commune : l’aviation sous toutes ses formes.
                                     </p>
                                 </div>
