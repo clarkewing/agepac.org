@@ -21,8 +21,8 @@
                             <div class="block w-full bg-white rounded-lg overflow-hidden">
                                 <img
                                     class="w-full"
-                                    src="{{ asset('media/flight-group-tb20.jpg') }}"
-                                    alt=""
+                                    src="{{ asset('media/be58-epl-instruments-band.jpg') }}"
+                                    alt="A group of four EPL students playing musical instruments in front of a BE58 aircraft"
                                 />
                             </div>
                         </div>
