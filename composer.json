@@ -15,6 +15,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
+        "livewire/livewire": "^2.10",
         "owenvoke/blade-fontawesome": "^1.10",
         "spatie/laravel-markdown": "^2.2"
     },

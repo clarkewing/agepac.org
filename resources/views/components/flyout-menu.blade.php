@@ -18,42 +18,69 @@
     }
 @endphp
 
-<div
-    class="relative"
-    x-data="{ open: false }"
-    @click.away="open = false"
-    @close.stop="open = false"
->
-    <button
-        type="button"
-        @click="open = ! open"
-        {{ $trigger->attributes->get('class') }}
-        @class([
-            'rounded-md inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500',
-            ...array_map(fn ($c) => 'hover:' . $c, explode(' ', $trigger->attributes->get('active-class') ?? 'text-gray-900'))
-        ])
-        :class="{'{{ $trigger->attributes->get('active-class') ?? 'text-gray-900' }}': open, '{{ $trigger->attributes->get('class') ?? 'text-gray-500' }}': ! open }"
-        :aria-expanded="open.toString()"
-    >
-        {{ $trigger }}
 
-        <x-heroicon-s-chevron-down class="ml-2 h-5 w-5" />
-    </button>
-
+<div class="flex justify-center">
     <div
-        class="absolute z-10 {{ $alignmentClasses }} mt-3 w-screen {{ $flyoutClasses }} px-2 sm:px-0"
-        x-show="open"
-        x-transition:enter="transition ease-out duration-200"
-        x-transition:enter-start="opacity-0 translate-y-1"
-        x-transition:enter-end="opacity-100 translate-y-0"
-        x-transition:leave="transition ease-in duration-150"
-        x-transition:leave-start="opacity-100 translate-y-0"
-        x-transition:leave-end="opacity-0 translate-y-1"
-        style="display: none;"
-        @click="open = false"
+        x-data="{
+            open: false,
+            toggle() {
+                if (this.open) {
+                    return this.close()
+                }
+
+                this.$refs.button.focus()
+
+                this.open = true
+            },
+            close(focusAfter) {
+                if (! this.open) return
+
+                this.open = false
+
+                focusAfter && focusAfter.focus()
+            }
+        }"
+        x-on:keydown.escape.prevent.stop="close($refs.button)"
+        x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+        x-id="['dropdown-button']"
+        class="relative"
     >
-        <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-            {{ $slot }}
+        <!-- Button -->
+        <button
+            x-ref="button"
+            x-on:click="toggle()"
+            :aria-expanded="open"
+            :aria-controls="$id('dropdown-button')"
+            type="button"
+            @class([
+                'rounded-md inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500',
+                ...array_map(fn ($c) => 'hover:' . $c, explode(' ', $trigger->attributes->get('active-class') ?? 'text-gray-900'))
+            ])
+            :class="{'{{ $trigger->attributes->get('active-class') ?? 'text-gray-900' }}': open, '{{ $trigger->attributes->get('class') ?? 'text-gray-500' }}': ! open }"
+        >
+            {{ $trigger }}
+
+            <x-heroicon-s-chevron-down class="ml-2 h-5 w-5" />
+        </button>
+
+        <!-- Panel -->
+        <div
+            x-ref="panel"
+            x-show="open"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 translate-y-1"
+            x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 translate-y-0"
+            x-transition:leave-end="opacity-0 translate-y-1"
+            x-on:click.outside="close($refs.button)"
+            :id="$id('dropdown-button')"
+            style="display: none;"
+            class="absolute z-10 {{ $alignmentClasses }} mt-3 w-screen {{ $flyoutClasses }} px-2 sm:px-0"
+        >
+            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                {{ $slot }}
+            </div>
         </div>
     </div>
 </div>
