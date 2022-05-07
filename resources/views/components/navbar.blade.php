@@ -59,42 +59,30 @@
                                     La Sélection
                                 </p>
                                 <p class="mt-1 text-sm text-gray-500">
-                                    Get a better understanding of where your traffic is coming from.
+                                    Découvrez les différentes voies d’accès à la filière EPL.
                                 </p>
                             </div>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                        <a href="/epl/training" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                             <x-heroicon-o-academic-cap class="shrink-0 h-6 w-6 text-blue-600" />
                             <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">
                                     La Formation
                                 </p>
                                 <p class="mt-1 text-sm text-gray-500">
-                                    Speak directly to your customers in a more meaningful way.
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                            <x-heroicon-o-chat-alt-2 class="shrink-0 h-6 w-6 text-blue-600" />
-                            <div class="ml-4">
-                                <p class="text-base font-medium text-gray-900">
-                                    Témoignages
-                                </p>
-                                <p class="mt-1 text-sm text-gray-500">
-                                    Your customers&#039; data will be safe and secure.
+                                    Apprenez-en plus sur le cursus EPL et les différentes phases qu’il comporte.
                                 </p>
                             </div>
                         </a>
                     </div>
                     <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                        <div class="flow-root">
-                            <a href="#" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">
-                                <x-heroicon-o-play class="shrink-0 h-6 w-6 text-gray-400" />
-                                <span class="ml-3">Présentation</span>
-                            </a>
-                        </div>
+{{--                        <div class="flow-root">--}}
+{{--                            <a href="#" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">--}}
+{{--                                <x-heroicon-o-play class="shrink-0 h-6 w-6 text-gray-400" />--}}
+{{--                                <span class="ml-3">Présentation</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
 
                         <div class="flow-root">
                             <a href="https://www.enac.fr" target="_blank" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">
