@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome');
 
 Route::view('epl/selection', 'selection');
+Route::view('epl/training', 'training');
 
 Route::view('association', 'about');
 Route::view('association/team', 'team');
