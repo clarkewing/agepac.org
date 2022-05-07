@@ -104,25 +104,25 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-12 xl:mt-0">
-                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                    Langue
-                </h3>
-                <form class="mt-4 sm:max-w-xs">
-                    <fieldset class="w-full">
-                        <label for="language" class="sr-only">Langue</label>
-                        <div class="relative">
-                            <select id="language" name="language" class="appearance-none block w-full bg-none bg-gray-700 border border-transparent rounded-md py-2 pl-3 pr-10 text-base text-white focus:outline-none focus:ring-white focus:border-white sm:text-sm">
-                                <option>English</option>
-                                <option selected>Français</option>
-                            </select>
-                            <div class="pointer-events-none absolute inset-y-0 right-0 px-2 flex items-center">
-                                <x-heroicon-s-chevron-down class="h-4 w-4 text-white" />
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
+{{--            <div class="mt-12 xl:mt-0">--}}
+{{--                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">--}}
+{{--                    Langue--}}
+{{--                </h3>--}}
+{{--                <form class="mt-4 sm:max-w-xs">--}}
+{{--                    <fieldset class="w-full">--}}
+{{--                        <label for="language" class="sr-only">Langue</label>--}}
+{{--                        <div class="relative">--}}
+{{--                            <select id="language" name="language" class="appearance-none block w-full bg-none bg-gray-700 border border-transparent rounded-md py-2 pl-3 pr-10 text-base text-white focus:outline-none focus:ring-white focus:border-white sm:text-sm">--}}
+{{--                                <option>English</option>--}}
+{{--                                <option selected>Français</option>--}}
+{{--                            </select>--}}
+{{--                            <div class="pointer-events-none absolute inset-y-0 right-0 px-2 flex items-center">--}}
+{{--                                <x-heroicon-s-chevron-down class="h-4 w-4 text-white" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </fieldset>--}}
+{{--                </form>--}}
+{{--            </div>--}}
         </div>
 {{--        <div class="border-t border-gray-700 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">--}}
 {{--            <div>--}}
