@@ -90,13 +90,13 @@
                         </h3>
                         <ul class="mt-4 space-y-4">
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="/privacy" class="text-base text-gray-300 hover:text-white">
                                     Confidentialité
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="/terms" class="text-base text-gray-300 hover:text-white">
                                     Conditions d’utilisation
                                 </a>
                             </li>

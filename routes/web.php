@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
+Route::get('/privacy', \App\Http\Controllers\PrivacyPolicyController::class);
+Route::get('/terms', \App\Http\Controllers\TermsController::class);
+
 Route::view('epl/selection', 'selection');
 Route::view('epl/training', 'training');
 
