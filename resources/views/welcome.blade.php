@@ -32,11 +32,11 @@
                                     En savoir plus
                                 </a>
                             </div>
-                            <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">
-                                    Nous recruter
-                                </a>
-                            </div>
+{{--                            <div class="mt-3 sm:mt-0 sm:ml-3">--}}
+{{--                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">--}}
+{{--                                    Nous recruter--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
                 </main>
@@ -56,7 +56,7 @@
             </h2>
             <div class="mt-8 flex lg:mt-0 lg:shrink-0">
                 <div class="inline-flex rounded-md shadow">
-                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-700">
+                    <a href="https://members.agepac.org" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-700">
                         Rejoignez-nous
                     </a>
                 </div>
@@ -85,12 +85,12 @@
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-800 md:py-4 md:text-lg md:px-10">
+                                <a href="/epl/training" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-800 md:py-4 md:text-lg md:px-10">
                                     La Formation
                                 </a>
                             </div>
                             <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">
+                                <a href="/epl/selection" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">
                                     Le Concours
                                 </a>
                             </div>
@@ -137,7 +137,7 @@
                         </p>
                         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div class="space-y-4 sm:mx-auto">
-                                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-universe bg-white hover:bg-wedgewood-50 sm:px-8">
+                                <a href="mailto:recruitment@agepac.org" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-universe bg-white hover:bg-wedgewood-50 sm:px-8">
                                     Nous recruter
                                 </a>
                             </div>

@@ -16,16 +16,16 @@
                             </li>
 
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="/epl/training" class="text-base text-gray-300 hover:text-white">
                                     La Formation
                                 </a>
                             </li>
 
-                            <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
-                                    Témoignages
-                                </a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a href="#" class="text-base text-gray-300 hover:text-white">--}}
+{{--                                    Témoignages--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
                         </ul>
                     </div>
                     <div class="mt-12 md:mt-0">
@@ -66,22 +66,22 @@
                         </h3>
                         <ul class="mt-4 space-y-4">
                             <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
+                                <a href="mailto:recruitment@agepac.org" class="text-base text-gray-300 hover:text-white">
                                     Nous Recruter
                                 </a>
                             </li>
 
-                            <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
-                                    Pourquoi nous recruter
-                                </a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a href="#" class="text-base text-gray-300 hover:text-white">--}}
+{{--                                    Pourquoi nous recruter--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
 
-                            <li>
-                                <a href="#" class="text-base text-gray-300 hover:text-white">
-                                    Ils nous font confiance
-                                </a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a href="#" class="text-base text-gray-300 hover:text-white">--}}
+{{--                                    Ils nous font confiance--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
                         </ul>
                     </div>
                     <div class="mt-12 md:mt-0">
