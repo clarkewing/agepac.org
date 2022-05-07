@@ -348,4 +348,181 @@
         </div>
     </div>
 
+    <!-- FAQ -->
+    <div class="bg-white">
+        <div id="faq" class="max-w-md mx-auto py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+                <div>
+                    <h2 class="text-3xl font-extrabold text-gray-900">Foire aux questions</h2>
+                    <p class="mt-4 text-lg text-gray-500">
+                        Vous ne trouvez pas la réponse que vous cherchez ? Contactez notre
+                        <a href="/contact" class="font-medium text-cyan-700 hover:text-cyan-600">équipe</a>.
+                    </p>
+                </div>
+                <div class="mt-12 lg:mt-0 lg:col-span-2">
+                    <dl class="space-y-12">
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Quelles sont les differences entre EPL/S/U/P ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Les formations sont différenciées par leurs prérequis au concours d’entrée. Plus de
+                                détails sont disponibles sur notre page
+                                <a href="/epl/selection">Le Concours</a>.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Combien coute l'entrée à l’ENAC ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                La formation est payée par l'État (seule formation de Pilote de Ligne gratuite avec les
+                                Cadets Air France).<br>
+                                Reste à votre charge le logement (compter 250€ par mois sans les aides à l’ENAC Toulouse
+                                ainsi que dans les divers centres) et les frais de restauration (compter 10€/jour au
+                                moins) comme tout étudiant.<br>
+                                En sus les non-boursiers doivent payer les frais d’inscription au concours qui sont
+                                d’environ 100€.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Quel niveau d’anglais faut-il ? / Faut-il être billingue pour réussir le concours ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                L’anglais devient de plus en plus crucial pour cette formation, le niveau est rehaussé
+                                partout et il devient critique de mettre toutes les chances de son côté.<br>
+                                Sans avoir l’obligation d’être parfaitement billingue en anglais, une très bonne aisance
+                                est indispensable. Cela passe par de bonnes connaissances grammaticales, un vocabulaire
+                                riche pas uniquement orienté aéronautique et une bonne expression orale.<br>
+                                La note éliminatoire au concours est de 8/20 en anglais alors qu’elle est de 5/20 dans
+                                les autres matières. L’oral du concours représente également une difficultée
+                                supplémentaire.<br>
+                                Il est possible d’améliorer franchement son niveau en séjournant à l’etranger. Un séjour
+                                long (au moins un mois, jusqu’un an) est très profitable et est souvent bien vu de la
+                                part des recruteurs.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Y a-t-il beaucoup de filles EPL à l’ENAC ? Sont elles traîtées de la même manière ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                En règle générale le pourcentage de filles se présentant au concours EPLs est
+                                sensiblement égal au pourcentage de filles reçues.<br>
+                                Il est de l'ordre de 10 %. Pour une promotion de 25 stagiaires cela représente environ 3
+                                filles.<br>
+                                Il est néanmoins plus que vraisemblable qu’un jour tu sois confrontée à un instructeur
+                                ou un collègue bien macho (car il y en a c'est certain), ce jour là tu devras peut être
+                                plus faire tes preuves mais tu auras aussi l’effet inverse genre l'instructeur bien
+                                affreux avec ton (tes) binome(s), et tout paternel et sympa avec toi.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Je suis en 5ème/4ème...Terminale et je voudrais savoir combien de moyenne il faut avoir
+                                en maths, physique, anglais pour avoir une chance de rentrer à l'ENAC.
+                            </x-slot>
+                            <x-slot name="answer">
+                                Il n’y a pas de moyenne type pour avoir une chance. Le mieux que tu puisses faire est de
+                                travailler sérieusement, de passer un BAC S (le minimum pour présenter le concours
+                                EPL/S) et d’entrer en Maths Sup si tu veux mettre le plus de chances de ton côté.<br>
+                                Personne ne donnera jamais de notes types car c’est trop subjectif. Il faut travailler
+                                sérieusement, ne pas baisser les bras et croire en ses chances.<br>
+                                Donc travaille bien et tu pourras espérer un jour faire d’un cockpit ton bureau. Le
+                                concours est à la portée de tout élève qui le prépare vraiment (à fond, à fond...) et
+                                qui bosse bien l’anglais.<br>
+                                Mais il ne faut pas oublier en cas d’echec que voler est aussi et surtout un plaisir !
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Faut-il être francais pour entrer à l’ENAC en tant qu’EPL ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Le concours EPL est ouvert à tous les ressortissants de l’Union Européenne.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Faut il avoir fait une prépa pour intégrer l’ENAC ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Non. Le programme du concours est basé sur le programme de Maths Sup. Il est
+                                disponible
+                                <a href="https://prepas.org/index.php?rubrique=53">ici</a>.<br>
+                                S’il est clair que la voie royale est de passer par la prépa, la seule condition pour
+                                acceder au concours et de posseder un BAC S. Après le concours peut être préparé à la
+                                FAC, en école de commerce, d'ingénieurs, en IUT etc... La seule limite étant vous même,
+                                vos capacités à comprendre, apprendre, etc...
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Quelle est la meilleure prépa pour intégrer l’ENAC ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Soyons clairs et sans équivoque : il n’y a pas de prépa miracle. Toutes les classes
+                                préparatoires se valent pour intégrer l’ENAC en tant qu’EPL. Le tout est de bien bosser
+                                et de se sentir à l’aise dans la prépa que l’on a choisi. Rien ne sert de viser une
+                                prépa réputée si c’est pour se retrouver à la traîne dans ladite prépa !<br>
+                                Il peut être utile de récuperer les annales sur le site de l’ENAC et de demander à vos
+                                professeurs de vous les faire travailler.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Serais-je affecté dans une compagnie aérienne à la fin de ma formation ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Le concours EPL est ni un concours de recrutement de fonctionnaires, ni un concours
+                                organisé pour le compte de compagnies aériennes. Le concours et la formation sont
+                                organisés et financés par la DGAC afin de permettre l’accès à ce métier à des jeunes
+                                quels que soient leurs moyens matériels. À l’issue de la formation, vous serez donc
+                                disponible sur le marché de l’emploi, au même titre que si vous étiez diplômé d’une
+                                université ou d’une école d’ingénieur.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Je n’ai jamais piloté ; serais-je capable de suivre la formation ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Le programme de formation EPL/S est conçu pour des élèves n’ayant jamais piloté. Il est
+                                donc accessible à tous les lauréats du concours, même s’ils n’ont aucune expérience
+                                antérieure.<br>
+                                La pratique nous montre que certains élèves, arrivant en formation avec plusieurs
+                                dizaines d’heures de vol et qui, par conséquent, ont pris des habitudes de pilotage
+                                différentes de la méthode utilisée par l’ENAC, ont parfois plus de difficultés que leurs
+                                collègues sans expérience et donc plus réceptifs à la méthodologie enseignée.
+                            </x-slot>
+                        </x-faq-item>
+
+                        <x-faq-item>
+                            <x-slot name="question">
+                                Est-ce que je passerai ma licence de pilote privé (PPL) pendant ma formation ?
+                            </x-slot>
+                            <x-slot name="answer">
+                                Non, car le cursus EPL est une formation intégrée, c'est-à-dire que tout le programme
+                                est orienté vers le seul objectif final de faire de vous un professionnel apte à exercer
+                                comme Officier Pilote de Ligne (OPL) sur avion de transport public. Même si votre niveau
+                                technique permet de présenter le test PPL en cours de formation, le programme qui vous
+                                est dispensé n’est pas approuvé pour cela.
+                            </x-slot>
+                        </x-faq-item>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </x-app-layout>

@@ -90,42 +90,4 @@
             </div>
         </div>
     </div>
-
-    <!-- FAQ -->
-    <div class="bg-gray-50">
-        <div id="faq" class="max-w-md mx-auto py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div class="lg:grid lg:grid-cols-3 lg:gap-8">
-                <div>
-                    <h2 class="text-3xl font-extrabold text-gray-900">Foire aux questions</h2>
-                    <p class="mt-4 text-lg text-gray-500">
-                        Vous ne trouvez pas la réponse que vous cherchez ? Contactez notre
-                        <a href="#contact" class="font-medium text-cyan-700 hover:text-cyan-600">équipe</a>.
-                    </p>
-                </div>
-                <div class="mt-12 lg:mt-0 lg:col-span-2">
-                    <dl class="space-y-12">
-                        <div>
-                            <dt class="text-lg font-medium text-gray-900">How do you make holy water?</dt>
-                            <dd class="mt-2 text-base text-gray-500">You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-                        </div>
-
-                        <div>
-                            <dt class="text-lg font-medium text-gray-900">What&#039;s the best thing about Switzerland?</dt>
-                            <dd class="mt-2 text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-                        </div>
-
-                        <div>
-                            <dt class="text-lg font-medium text-gray-900">What do you call someone with no body and no nose?</dt>
-                            <dd class="mt-2 text-base text-gray-500">Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-                        </div>
-
-                        <div>
-                            <dt class="text-lg font-medium text-gray-900">Why do you never see elephants hiding in trees?</dt>
-                            <dd class="mt-2 text-base text-gray-500">Because they&#039;re so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-                        </div>
-                    </dl>
-                </div>
-            </div>
-        </div>
-    </div>
 </x-app-layout>
