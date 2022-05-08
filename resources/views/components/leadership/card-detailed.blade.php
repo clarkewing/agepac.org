@@ -30,7 +30,9 @@
                     </p>
                 </div>
                 <div class="text-base">
-                    <p class="text-gray-500">{{ $description }}</p>
+                    <p class="text-justify text-gray-500">
+                        {{ $description }}
+                    </p>
                 </div>
                 <ul class="relative flex space-x-5">
                     @isset($twitterUrl)
