@@ -7,9 +7,6 @@
         'relative',
         'bg-white' => ! $isOverlayed,
     ])
-    x-data="{ mobileMenuOpen: false }"
-    @click.outside="mobileMenuOpen = false"
-    @close.stop="mobileMenuOpen = false"
 >
     <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-6 lg:space-x-10">
         <div>
@@ -23,19 +20,21 @@
             </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
-            <button
-                type="button"
-                @click="mobileMenuOpen = true"
-                @class([
-                    'rounded-md p-2 inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500',
-                    'text-gray-400 hover:text-gray-500 hover:bg-gray-100' => ! $isOverlayed,
-                    'text-white hover:text-white/75' => $isOverlayed,
-                ])
-                aria-expanded="false"
-            >
-                <span class="sr-only">Open menu</span>
-                <x-heroicon-o-menu class="h-6 w-6" />
-            </button>
+            <x-mobile-nav>
+                <x-slot name="trigger">
+                    <button
+                        type="button"
+                        @class([
+                            'rounded-md p-2 inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500',
+                            'text-gray-400 hover:text-gray-500 hover:bg-gray-100' => ! $isOverlayed,
+                            'text-white hover:text-white/75' => $isOverlayed,
+                        ])
+                    >
+                        <span class="sr-only">Open menu</span>
+                        <x-heroicon-o-menu class="h-6 w-6" />
+                    </button>
+                </x-slot>
+            </x-mobile-nav>
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
             <nav class="flex space-x-6 lg:space-x-10">
@@ -169,70 +168,6 @@
                     </a>
                 </div>
             @endunless
-        </div>
-    </div>
-
-    <div
-        class="absolute z-10 top-0 inset-x-0 p-2 origin-top-right md:hidden"
-        x-show="mobileMenuOpen"
-        x-transition:enter="transition ease-out duration-200"
-        x-transition:enter-start="opacity-0 scale-95"
-        x-transition:enter-end="opacity-100 scale-100"
-        x-transition:leave="transition ease-in duration-150"
-        x-transition:leave-start="opacity-100 scale-100"
-        x-transition:leave-end="opacity-0 scale-95"
-        style="display: none;"
-        @click="mobileMenuOpen = false"
-    >
-        <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-            <div class="pt-5 pb-6 px-5">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <x-application-logo class="h-8 w-auto" />
-                    </div>
-                    <div class="-mr-2">
-                        <button
-                            type="button"
-                            @click="mobileMenuOpen = false"
-                            class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                        >
-                            <span class="sr-only">Close menu</span>
-                            <x-heroicon-o-x class="h-6 w-6" />
-                        </button>
-                    </div>
-                </div>
-                <div class="mt-6 space-y-1">
-                    <a href="/" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
-                        Accueil
-                    </a>
-                    <a href="/epl/selection" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
-                        La Sélection EPL
-                    </a>
-                    <a href="/epl/training" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
-                        La Formation EPL
-                    </a>
-                    <a href="/association" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
-                        Association
-                    </a>
-                    <a href="/contact" class="block rounded-md p-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800">
-                        Nous Recruter
-                    </a>
-                </div>
-            </div>
-            <div class="py-6 px-5">
-                <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-700 hover:bg-red-600">
-                    Faire un don
-                </a>
-                <p class="mt-6 text-center text-sm font-medium text-gray-500">
-                    Ancien élève ? Encore en formation ?
-                </p>
-                <div class="mt-1 flex justify-center">
-                    <a href="https://members.agepac.org" class="flex items-center px-2 text-vermilion-400 hover:text-vermilion-500">
-                        <x-heroicon-o-user-circle class="shrink-0 h-5 w-5" />
-                        <span class="ml-2">Espace Membres</span>
-                    </a>
-                </div>
-            </div>
         </div>
     </div>
 </div>
