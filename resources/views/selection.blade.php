@@ -15,6 +15,19 @@
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                             L’ENAC propose 4 voies d'accès au cursus EPL. Toutes ont en commun un concours très sélectif.
                         </p>
+
+                        <div class="mt-6 sm:max-w-lg sm:mx-auto lg:hidden">
+                            <div class="mx-auto w-full rounded-lg shadow-lg">
+                                <div class="block w-full bg-white rounded-lg overflow-hidden">
+                                    <img
+                                        class="w-full"
+                                        src="{{ asset('media/flight-group-tb20.jpg') }}"
+                                        alt="An EPL flight group posing next to their TB20 seen from the front"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                             <p class="text-base font-medium text-gray-900">
                                 Découvre le Guide EPL, régulièrement mis à jour.
@@ -35,7 +48,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="mt-12 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+
+                    <div class="hidden lg:col-span-6 lg:flex lg:items-center">
                         <div class="mx-auto w-full rounded-lg shadow-lg">
                             <div class="block w-full bg-white rounded-lg overflow-hidden">
                                 <img

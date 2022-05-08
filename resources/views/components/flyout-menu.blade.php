@@ -58,9 +58,8 @@
             ])
             :class="{'{{ $trigger->attributes->get('active-class') ?? 'text-gray-900' }}': open, '{{ $trigger->attributes->get('class') ?? 'text-gray-500' }}': ! open }"
         >
-            {{ $trigger }}
-
-            <x-heroicon-s-chevron-down class="ml-2 h-5 w-5" />
+            <span class="whitespace-nowrap">{{ $trigger }}</span>
+            <x-heroicon-s-chevron-down class="ml-1 h-5 w-5" />
         </button>
 
         <!-- Panel -->
