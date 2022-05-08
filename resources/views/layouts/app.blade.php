@@ -11,6 +11,12 @@
             <title>AGEPAC – The ENAC Pilot Association</title>
         @endif
 
+        <link rel="icon" href="{{ asset('icon.svg') }}" type="image/svg+xml">
+        <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
+        <meta name="theme-color" content="rgb(0, 10, 51)">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <!-- / Fonts -->
