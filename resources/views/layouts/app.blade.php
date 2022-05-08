@@ -13,12 +13,19 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <!-- / Fonts -->
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <!-- / Styles -->
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <!-- / Scripts -->
+
+        <!-- Fathom - beautiful, simple website analytics -->
+        <script src="https://battery-stunning.agepac.org/script.js" data-site="KUNUHNAM" defer></script>
+        <!-- / Fathom -->
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
