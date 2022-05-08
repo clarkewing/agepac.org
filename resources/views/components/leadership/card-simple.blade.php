@@ -22,7 +22,7 @@
         <div class="space-y-2">
             <div class="text-xs font-medium lg:text-sm">
                 <h3>{{ $name }}</h3>
-                <p class="text-indigo-600">{!! $title !!}</p>
+                <p class="text-wedgewood-500">{!! $title !!}</p>
             </div>
         </div>
     </div>

@@ -23,7 +23,7 @@
             <div class="space-y-4">
                 <div class="text-lg leading-6 font-medium">
                     <h3 class="mb-1">{{ $name }}</h3>
-                    <p class="text-indigo-600">{{ $title }}</p>
+                    <p class="text-wedgewood-500">{{ $title }}</p>
                     <p class="text-base text-gray-600">
                         {{ $promotion }}
                         @isset($job) – {{ $job }} @endisset
