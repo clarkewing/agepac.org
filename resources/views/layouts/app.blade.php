@@ -78,7 +78,7 @@
             @endisset
 
             <!-- Page Content -->
-            <main {{ $attributes }}>
+            <main {{ $attributes->except('title') }}>
                 {{ $slot }}
             </main>
 
