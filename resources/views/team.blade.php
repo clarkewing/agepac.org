@@ -23,7 +23,7 @@
                         title="Président"
                         promotion="EPL/S 2015"
                         job="CDB PixAir Survey"
-                        twitter-url="https://twitter.com/HugoClarkeWing"
+{{--                        twitter-url="https://twitter.com/HugoClarkeWing"--}}
                         linkedin-url="https://www.linkedin.com/in/mrhugo"
                     >
                         <x-slot name="description">
