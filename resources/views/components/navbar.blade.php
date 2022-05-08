@@ -95,7 +95,7 @@
 
                 <x-flyout-menu
                     align="center"
-                    flyout-classes="max-w-xs"
+                    flyout-classes="max-w-md"
                 >
                     <x-slot
                         name="trigger"
@@ -106,15 +106,27 @@
                     </x-slot>
 
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                        <a href="/association" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                            <div class="text-base font-medium text-gray-900">
-                                Qui sommes-nous ?
+                        <a href="/association/team" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                            <x-heroicon-o-library class="shrink-0 h-6 w-6 text-wedgewood-500" />
+                            <div class="ml-4">
+                                <p class="text-base font-medium text-gray-900">
+                                    Qui sommes-nous ?
+                                </p>
+                                <p class="mt-1 text-sm text-gray-500">
+                                    Qu’est-ce que l’AGEPAC ? Découvrez notre association et ses valeurs.
+                                </p>
                             </div>
                         </a>
 
                         <a href="/association/team" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                            <div class="text-base font-medium text-gray-900">
-                                Notre équipe
+                            <x-heroicon-o-user-group class="shrink-0 h-6 w-6 text-wedgewood-500" />
+                            <div class="ml-4">
+                                <p class="text-base font-medium text-gray-900">
+                                    Notre équipe
+                                </p>
+                                <p class="mt-1 text-sm text-gray-500">
+                                    Rencontrez les membres du Bureau et du Conseil de l’AGEPAC.
+                                </p>
                             </div>
                         </a>
                     </div>

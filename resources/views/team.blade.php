@@ -1,8 +1,8 @@
 <x-app-layout title="Notre équipe">
     <x-slot
         name="header"
-        backdrop="{{ asset('media/convention-modified.jpg') }}"
-        alt="Woman speaking to audience in amphitheatre in front of an AGEPAC logo projected onto the wall"
+        backdrop="{{ asset('media/auditorium-audience.jpg') }}"
+        alt="EPL graduates in uniform ddiscussing among themselves in auditorium seats"
     >
         <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Notre équipe
