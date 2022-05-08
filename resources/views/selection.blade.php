@@ -160,7 +160,7 @@
                             <x-feature-section-item>
                                 <x-slot name="icon">2</x-slot>
                                 <x-slot name="title">Les PSY 1</x-slot>
-                                <x-slot name="badge" class="bg-gradient-to-br from-wedgewood-500 via-dandelion-300 to-vermilion-400">EPL/S/U/P</x-slot>
+                                <x-slot name="badge" style="background: linear-gradient(105deg, #B0D3E1 0%, #B0D3E1 58.1%, #F8E483 0%, #F8E483 73%, #FE9A85 0%, #FE9A85 100%);">EPL/S/U/P</x-slot>
                                 <x-slot name="description">
                                     Constitués de tests psychotechniques et psychomoteurs, ils permettent d’évaluer des
                                     aptitudes mentales nécessaires au métier de pilote de ligne telles que l’attention
@@ -172,7 +172,7 @@
                             <x-feature-section-item>
                                 <x-slot name="icon">3</x-slot>
                                 <x-slot name="title">Les PSY 2</x-slot>
-                                <x-slot name="badge" class="bg-gradient-to-br from-wedgewood-500 via-dandelion-300 to-vermilion-400">EPL/S/U/P</x-slot>
+                                <x-slot name="badge" style="background: linear-gradient(105deg, #B0D3E1 0%, #B0D3E1 58.1%, #F8E483 0%, #F8E483 73%, #FE9A85 0%, #FE9A85 100%)">EPL/S/U/P</x-slot>
                                 <x-slot name="description">
                                     Enfin la troisième étape est cruciale car elle permet d’évaluer la capacité au
                                     travail en équipage des candidats et leur motivation. Pour ce faire, les candidats

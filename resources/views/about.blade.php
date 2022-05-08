@@ -1,23 +1,12 @@
 <x-app-layout title="À propos" class="bg-white">
     <x-slot
         name="header"
-        class="relative pb-8 md:pb-12 lg:pt-8"
+        backdrop="{{ asset('media/flight-group-be58.jpg') }}"
+        alt="Four EPLs posing in front of a Beechcraft Baron 58 aircraft"
     >
-        <div class="relative pt-36 pb-8 sm:pt-40 sm:pb-12 md:py-36 lg:py-48 px-8 bg-gradient-to-t md:bg-gradient-to-r from-universe via-transparent rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-            <div class="absolute inset-0 opacity-80 filter saturate-120 mix-blend-multiply">
-                <img
-                    src="{{ asset('media/flight-group-be58.jpg') }}"
-                    alt="Four EPLs posing in front of a Beechcraft Baron 58 aircraft"
-                    class="w-full h-full object-cover"
-                />
-            </div>
-
-            <div class="relative lg:col-span-1">
-                <h1 class="text-white text-4xl font-extrabold tracking-tight sm:text-5xl">
-                    Qui sommes-nous ?
-                </h1>
-            </div>
-        </div>
+        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Qui sommes-nous ?
+        </h1>
     </x-slot>
 
     <!-- Mission statement section -->
@@ -31,18 +20,23 @@
                     </h2>
 
                     <div class="mt-6 text-gray-500 space-y-6">
-                        <p class="text-lg">
-                            L’Association Générale des Élèves Pilotes de l’Aviation Civile est une association loi 1901
-                            qui, depuis 1992, regroupe les Élèves Pilotes de Ligne formés à l’École Nationale de
-                            l’Aviation Civile. Sa mission est avant tout de garantir la pérennité de la filière publique
-                            de formation au pilotage, mais aussi d’assurer une bonne représentativité des actuels et
-                            anciens élèves dans la communauté aéronautique.
-                        </p>
+                        <div>
+                            <p class="text-lg text-justify">
+                                L’Association Générale des Élèves Pilotes de l’Aviation Civile est une association loi 1901
+                                qui, depuis 1992, regroupe les Élèves Pilotes de Ligne formés à l’École Nationale de
+                                l’Aviation Civile.
+                            </p>
+                            <p class="mt-2 text-lg text-justify">
+                                Sa mission est avant tout de garantir la pérennité de la filière publique de formation au
+                                pilotage, mais aussi d’assurer une bonne représentativité des actuels et anciens élèves dans
+                                la communauté aéronautique.
+                            </p>
+                        </div>
                         <div class="text-base leading-7">
                             <p>
                                 Les buts poursuivis sont multiples :
                             </p>
-                            <ul class="list-disc pl-6">
+                            <ul class="list-disc pl-6 text-justify">
                                 <li>Aider, par les moyens dont elle dispose, les EPL à accéder à un poste de navigant.</li>
                                 <li>Servir d'interlocuteur privilégié dans différentes discussions et actions.</li>
                                 <li>Faire interface entre les EPL sortis de formation, et les autres acteurs du monde du transport aérien.</li>

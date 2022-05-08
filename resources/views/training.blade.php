@@ -21,8 +21,8 @@
                             <div class="block w-full bg-white rounded-lg overflow-hidden">
                                 <img
                                     class="w-full"
-                                    src="{{ asset('media/be58-epl-instruments-band.jpg') }}"
-                                    alt="A group of four EPL students playing musical instruments in front of a BE58 aircraft"
+                                    src="{{ asset('media/students-on-tb20-wing.jpg') }}"
+                                    alt="A couple EPL students preparing their flight bags on the wing of a TB20"
                                 />
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                         <x-slot name="title">L’ATPL théorique</x-slot>
                     </x-feature-section-header>
 
-                    <p class="mt-8 text-base text-gray-600">
+                    <p class="mt-8 text-base text-justify text-gray-600">
                         Les neuf premiers mois de la formation EPL sont consacrés à l’ATPL théorique sur le campus
                         principal de l’ENAC à Toulouse. Cette formation est dispensée par des enseignants experts dans
                         leur domaine (chercheurs, ingénieurs ou même médecins). Les EPL ont aussi accès à un matériel
@@ -98,11 +98,11 @@
                         <p class="mt-8 text-lg leading-6 font-medium text-gray-900">
                             Module maniabilité
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Le module de maniabilité (32h de vol) permet à l’élève pilote de se familiariser avec le
                             TB20 et d’assimiler les techniques de pilotage élémentaires.
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Il s’agira alors d’effectuer des exercices tels que des décrochages, des tours de piste, du
                             vol moteur réduit, des changements de configuration, des exercices de panne…, autant
                             d’exercices qui lui permettront de disposer de compétences et réflexes indispensables à la
@@ -113,12 +113,12 @@
                             src="{{ asset('media/lacher-solo.jpg') }}"
                             alt="An EPL getting splashed by his classmates following his first solo flight"
                         />
-                        <p class="mt-4 text-base text-gray-600">
+                        <p class="mt-4 text-base text-justify text-gray-600">
                             Le “lâcher solo” intervient une fois que l’instructeur estime son niveau suffisant afin de
                             voler seul. Une alternance de vols solos (tours de piste et vols locaux) et de vols avec
                             instructeur débute alors.
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Un test en vol (Progress Check) a lieu à la fin de ce module afin de vérifier que le niveau
                             de l’élève est en adéquation avec les exigences de l’ENAC et lui permet alors d’accéder au
                             module de navigation.
@@ -127,7 +127,7 @@
                         <p class="mt-8 text-lg leading-6 font-medium text-gray-900">
                             Module navigation
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Au début de ce deuxième module l’élève pilote dispose d’une solide base de pilotage et a
                             maintenant assez de disponibilité afin de gérer d’autres aspects d’un vol VFR.<br>
                             L’élève se familiarisera dans un premier temps avec une méthode de navigation qui lui
@@ -135,29 +135,29 @@
                             gestion de différents éléments tels que les automatismes, le carburant, la trajectoire, les
                             communications radio…
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Une fois cette méthode acquise, l’instructeur l'amènera en dehors de sa zone de confort en
                             navigant vers des terrains très différents (haute densité de trafic, pistes courtes, plans
                             d’approche particuliers…) tout en introduisant la gestion de situations inhabituelles et de
                             pannes.
                         </p>
-                        <img
-                            class="lg:hidden mt-4 w-full rounded-lg shadow-xl"
-                            src="{{ asset('media/students-on-tb20-wing.jpg') }}"
-                            alt="A couple EPL students preparing their flight bags on the wing of a TB20"
-                        />
-                        <p class="mt-4 text-base text-gray-600">
+{{--                        <img--}}
+{{--                            class="lg:hidden mt-4 w-full rounded-lg shadow-xl"--}}
+{{--                            src="{{ asset('media/be58-epl-instruments-band.jpg') }}"--}}
+{{--                            alt="A group of four EPL students playing musical instruments in front of a BE58 aircraft"--}}
+{{--                        />--}}
+                        <p class="mt-4 text-base text-justify text-gray-600">
                             Tout au long de ce module de navigation, la formation des EPL est réalisée de manière à ce
                             qu’ils acquièrent les compétences attendues d’un pilote professionnel. Une attention est
                             particulièrement accordée à ce que la rigueur et l’optimisation soient toujours présentes
                             dans leurs actions.
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Le TB20 est par ailleurs une machine très évoluée (pas variable, train rentrant, pilote
                             automatique…) qui leur permet de se rapprocher le plus possible de l’avion sur lequel ils
                             évolueront professionnellement dans quelques années.
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Ce module de navigation est aussi marqué par le passage d’un autre test en vol propre à
                             l’ENAC dont la réussite permet de débuter les navigations solos (9h au total). Parmi
                             celles-ci aura lieu la mémorable navigation solo de 300Nm nécessaire afin de se présenter au
@@ -168,12 +168,12 @@
                             src="{{ asset('media/tb20-vfr-map.jpg') }}"
                             alt="An EPL student in the cockpit reviewing his VFR map during a navigation flight"
                         />
-                        <p class="mt-4 text-base text-gray-600">
+                        <p class="mt-4 text-base text-justify text-gray-600">
                             Les EPL profitent également pendant ce module du simulateur FNPT2 TB20 de l’ENAC mis à leur
                             disposition afin de se familiariser avec le vol sans visibilité avant d’effectuer ces mêmes
                             exercices en vol. [Image simu en IMC]
                         </p>
-                        <p class="mt-2 text-base text-gray-600">
+                        <p class="mt-2 text-base text-justify text-gray-600">
                             Le passage du CPL marque alors la fin de ce module et de cette phase.
                         </p>
                     </div>
@@ -194,12 +194,12 @@
                                 src="{{ asset('media/lacher-solo.jpg') }}"
                                 alt="An EPL getting splashed by his classmates following his first solo flight"
                             />
-                            <img
-                                class="mx-auto lg:rounded-lg lg:shadow-xl"
-                                width="490"
-                                src="{{ asset('media/students-on-tb20-wing.jpg') }}"
-                                alt="A couple EPL students preparing their flight bags on the wing of a TB20"
-                            />
+{{--                            <img--}}
+{{--                                class="mx-auto lg:rounded-lg lg:shadow-xl"--}}
+{{--                                width="490"--}}
+{{--                                src="{{ asset('media/be58-epl-instruments-band.jpg') }}"--}}
+{{--                                alt="A group of four EPL students playing musical instruments in front of a BE58 aircraft"--}}
+{{--                            />--}}
                             <img
                                 class="mx-auto lg:rounded-lg lg:shadow-xl"
                                 width="490"
@@ -219,7 +219,7 @@
                         <x-slot name="title">La phase PPPI</x-slot>
                     </x-feature-section-header>
 
-                    <p class="mt-8 text-base text-gray-600">
+                    <p class="mt-8 text-base text-justify text-gray-600">
                         Avant de débuter l'entraînement IFR, les stagiaires entreprennent un stage de perfectionnement
                         au pilotage en position inusuelle durant lequel ils découvrent un avion à train classique, le
                         CAP10, ainsi que la voltige élémentaire. Ils valident ainsi l’Advanced UPRT avec un programme
@@ -251,7 +251,7 @@
                             <x-slot name="title">La phase IRSE</x-slot>
                         </x-feature-section-header>
 
-                        <p class="mt-8 text-base text-gray-600">
+                        <p class="mt-8 text-base text-justify text-gray-600">
                             La phase IFR débute par 25 heures de simulateur sur lequel les EPL apprennent les techniques
                             élémentaires, procédures et la navigation sur le TB20, un avion sur lequel ils commencent à
                             développer de l’expérience. L'entraînement se poursuit ensuite par 40 heures de vol pour
@@ -283,11 +283,11 @@
                         <x-slot name="title">La phase IRME</x-slot>
                     </x-feature-section-header>
 
-                    <p class="mt-8 text-base text-gray-600">
+                    <p class="mt-8 text-base text-justify text-gray-600">
                         Pendant trois mois, 25 heures de simulateur et 25 heures de vol, les élèves découvrent les
                         opérations multimoteurs sur le Beechcraft Baron 58 équipé de la dernière avionique Garmin TXi.
                     </p>
-                    <p class="mt-2 text-base text-gray-600">
+                    <p class="mt-2 text-base text-justify text-gray-600">
                         Les deux principaux objectifs de cette phase sont de gagner en confiance vis-à-vis du pilotage
                         d’un puissant bimoteur et de découvrir les premières problématiques liées aux opérations en
                         compagnie aérienne. Les stagiaires passent quatre examens en vol pendant cette phase, comprenant
@@ -319,7 +319,7 @@
                             <x-slot name="title">La phase MCC/JOC</x-slot>
                         </x-feature-section-header>
 
-                        <p class="mt-8 text-base text-gray-600">
+                        <p class="mt-8 text-base text-justify text-gray-600">
                             Les EPL terminent leur formation par une phase de MCC (Multi Crew Cooperation) et JOC (Jet
                             Orientation Course) de 60 heures sur le campus de Toulouse. Celle-ci s’effectue sur un
                             FNPTII-MCC A320. L’ENAC insiste sur l’importance d’un volume horaire supérieur à celui

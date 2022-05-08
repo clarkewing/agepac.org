@@ -53,7 +53,7 @@
 
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                         <a href="/epl/selection" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                            <x-heroicon-o-users class="shrink-0 h-6 w-6 text-blue-600" />
+                            <x-heroicon-o-users class="shrink-0 h-6 w-6 text-wedgewood-500" />
                             <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">
                                     La Sélection
@@ -65,7 +65,7 @@
                         </a>
 
                         <a href="/epl/training" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                            <x-heroicon-o-academic-cap class="shrink-0 h-6 w-6 text-blue-600" />
+                            <x-heroicon-o-academic-cap class="shrink-0 h-6 w-6 text-wedgewood-500" />
                             <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">
                                     La Formation
@@ -93,16 +93,32 @@
                     </div>
                 </x-flyout-menu>
 
-                <a
-                    href="/association"
-                    @class([
-                        'text-base font-medium',
-                        'text-gray-500 hover:text-gray-900' => ! $isOverlayed,
-                        'text-white hover:text-white/75' => $isOverlayed,
-                    ])
+                <x-flyout-menu
+                    align="center"
+                    flyout-classes="max-w-xs"
                 >
-                    Association
-                </a>
+                    <x-slot
+                        name="trigger"
+                        class="{{ $isOverlayed ? 'text-white' : 'text-gray-500' }}"
+                        active-class="{{ $isOverlayed ? 'text-white/75' : 'text-gray-900' }}"
+                    >
+                        <span>Association</span>
+                    </x-slot>
+
+                    <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                        <a href="/association" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                            <div class="text-base font-medium text-gray-900">
+                                Qui sommes-nous ?
+                            </div>
+                        </a>
+
+                        <a href="/association/team" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                            <div class="text-base font-medium text-gray-900">
+                                Notre équipe
+                            </div>
+                        </a>
+                    </div>
+                </x-flyout-menu>
 
                 <a
                     href="/contact"
