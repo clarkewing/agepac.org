@@ -20,8 +20,10 @@
                                 Découvre le Guide EPL, régulièrement mis à jour.
                             </p>
                             <a
-                                class="mt-3 flex w-full sm:shrink-0 sm:inline-flex sm:w-auto items-center justify-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                                href="#"
+                                class="mt-3 flex w-full sm:shrink-0 sm:inline-flex sm:w-auto items-center justify-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vermilion-400"
+                                href="{{ asset('media/guide-epl-2019.pdf') }}"
+                                target="_blank"
+                                download
                             >
                                 <x-heroicon-o-download class="-ml-1 mr-3 h-5 w-5" />
                                 Télécharger le Guide EPL
@@ -39,7 +41,7 @@
                                 <img
                                     class="w-full"
                                     src="{{ asset('media/flight-group-tb20.jpg') }}"
-                                    alt=""
+                                    alt="An EPL flight group posing next to their TB20 seen from the front"
                                 />
                             </div>
                         </div>
@@ -126,7 +128,7 @@
                         class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                         width="490"
                         src="{{ asset('media/mpl-overhead.jpg') }}"
-                        alt=""
+                        alt="Montpellier airport and its runway seen from above alongside the wing of a TB20"
                     />
                 </div>
             </div>
@@ -192,8 +194,8 @@
                         <img
                             class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                             width="490"
-                            src="{{ asset('media/be58-wing-from-rear.jpg') }}"
-                            alt=""
+                            src="{{ asset('media/st-yan-night-approach.jpg') }}"
+                            alt="The Saint-Yan approach lights seen from the cockpit of a BE58 at night"
                         />
                     </div>
                 </div>
@@ -261,7 +263,7 @@
                         class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                         width="490"
                         src="{{ asset('media/pilot-tb20.jpg') }}"
-                        alt=""
+                        alt="An EPL student wearing sunglasses inside a TB20 cockpit seen from the rear"
                     />
                 </div>
             </div>
@@ -330,8 +332,8 @@
                         <img
                             class="relative mx-auto lg:rounded-lg lg:shadow-xl"
                             width="490"
-                            src="{{ asset('media/cap10-startup.jpg') }}"
-                            alt=""
+                            src="{{ asset('media/altocumulus-over-be58-wing.jpg') }}"
+                            alt="Rows of altocumulus clouds seen above the wing of a BE58 aircraft banking into a turn over the countryside"
                         />
 
                         <div class="px-4">
@@ -353,10 +355,10 @@
         <div id="faq" class="max-w-md mx-auto py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="lg:grid lg:grid-cols-3 lg:gap-8">
                 <div>
-                    <h2 class="text-3xl font-extrabold text-gray-900">Foire aux questions</h2>
+                    <h2 class="text-3xl font-extrabold text-universe">Foire aux questions</h2>
                     <p class="mt-4 text-lg text-gray-500">
                         Vous ne trouvez pas la réponse que vous cherchez ? Contactez notre
-                        <a href="/contact" class="font-medium text-cyan-700 hover:text-cyan-600">équipe</a>.
+                        <a href="/contact" class="font-medium text-vermilion-500 hover:text-vermilion-600">équipe</a>.
                     </p>
                 </div>
                 <div class="mt-12 lg:mt-0 lg:col-span-2">

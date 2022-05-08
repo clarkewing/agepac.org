@@ -1,4 +1,4 @@
-<x-app-layout title="À propos" class="bg-white">
+<x-app-layout title="Qui sommes-nous ?" class="bg-white">
     <x-slot
         name="header"
         backdrop="{{ asset('media/flight-group-be58.jpg') }}"
@@ -61,7 +61,7 @@
                         </div>
                     </dl>
 {{--                    <div class="mt-10">--}}
-{{--                        <a href="#" class="text-base font-medium text-shiraz hover:underline">--}}
+{{--                        <a href="#" class="text-base font-medium text-shiraz-600 hover:underline">--}}
 {{--                            Découvrez nos actions <span aria-hidden="true">&rarr;</span>--}}
 {{--                        </a>--}}
 {{--                    </div>--}}

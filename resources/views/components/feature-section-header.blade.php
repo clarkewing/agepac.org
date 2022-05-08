@@ -1,4 +1,4 @@
-<h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+<h3 class="text-2xl font-extrabold text-universe tracking-tight sm:text-3xl">
     {{ $title }}
 </h3>
 @isset($description)

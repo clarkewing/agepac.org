@@ -1,5 +1,5 @@
 <div class="relative">
-    <h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+    <h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-universe sm:text-4xl">
         {{ $title }}
     </h2>
     @isset($description)

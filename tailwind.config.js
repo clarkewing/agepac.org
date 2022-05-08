@@ -52,7 +52,16 @@ module.exports = {
                 'wedgewood-700': '#345967',
                 'wedgewood-800': '#28414B',
                 'wedgewood-900': '#1A2A2F',
-                'shiraz': '#BB0A21',
+                'shiraz-50': '#FFBBC4',
+                'shiraz-100': '#FF92A0',
+                'shiraz-200': '#FD6B7E',
+                'shiraz-300': '#FB445C',
+                'shiraz-400': '#F81F3B',
+                'shiraz-500': '#E40A26',
+                'shiraz-600': '#BB0A21', // Brand color
+                'shiraz-700': '#93091B',
+                'shiraz-800': '#6B0815',
+                'shiraz-900': '#45060E',
                 'blush': '#FFF9FB',
             },
             fontFamily: {

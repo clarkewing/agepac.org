@@ -3,7 +3,7 @@
         <div
             {{ $icon->attributes->class([
                 'absolute flex items-center justify-center h-12 w-12 rounded-md font-bold',
-                'bg-universe' => ! Str::contains($icon->attributes->get('class'), 'bg-'),
+                'bg-gray-300' => ! Str::contains($icon->attributes->get('class'), 'bg-'),
                 'text-2xl text-white' => ! Str::contains($icon->attributes->get('class'), 'text-'),
             ]) }}
         >
@@ -26,7 +26,7 @@
             @endisset
         </div>
     </dt>
-    <dd class="mt-2 ml-16 text-base text-gray-500">
+    <dd class="mt-2 ml-16 text-base text-justify text-gray-500">
         {{ $description }}
     </dd>
 </div>

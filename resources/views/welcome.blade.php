@@ -16,8 +16,8 @@
                 <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                     <div class="sm:text-center lg:text-left">
                         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                            <span class="block xl:inline">L’association des</span>
-                            <span class="block text-wedgewood-500 xl:inline">Élèves Pilotes de Ligne</span>
+                            <span class="block text-universe xl:inline">L’association des</span>
+                            <span class="block text-shiraz-600 xl:inline">Élèves Pilotes de Ligne</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                             L’AGEPAC est l’Association Générale des Élèves Pilotes de l’Aviation Civile.
@@ -27,13 +27,13 @@
                             <div class="rounded-md shadow">
                                 <a
                                     href="/association"
-                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-500 hover:bg-wedgewood-700 md:py-4 md:text-lg md:px-10"
+                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-shiraz-600 hover:bg-shiraz-700 md:py-4 md:text-lg md:px-10"
                                 >
                                     En savoir plus
                                 </a>
                             </div>
 {{--                            <div class="mt-3 sm:mt-0 sm:ml-3">--}}
-{{--                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">--}}
+{{--                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-shiraz-700 bg-shiraz-100 hover:bg-shiraz-200 md:py-4 md:text-lg md:px-10">--}}
 {{--                                    Nous recruter--}}
 {{--                                </a>--}}
 {{--                            </div>--}}
@@ -74,7 +74,7 @@
                     <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                         <h1>
                             <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                                <span class="block text-gray-900 xl:inline">Des pilotes</span>
+                                <span class="block text-universe xl:inline">Des pilotes</span>
                                 <span class="block text-vermilion-400 xl:inline">formés pour exceller</span>
                             </span>
                         </h1>
@@ -85,12 +85,12 @@
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow">
-                                <a href="/epl/training" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-800 md:py-4 md:text-lg md:px-10">
+                                <a href="/epl/training" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-vermilion-400 hover:bg-vermilion-500 md:py-4 md:text-lg md:px-10">
                                     La Formation
                                 </a>
                             </div>
                             <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="/epl/selection" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-wedgewood-700 bg-wedgewood-100 hover:bg-wedgewood-200 md:py-4 md:text-lg md:px-10">
+                                <a href="/epl/selection" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-vermilion-700 bg-vermilion-100 hover:bg-vermilion-200 md:py-4 md:text-lg md:px-10">
                                     Le Concours
                                 </a>
                             </div>
