@@ -14,7 +14,10 @@
             <div class="space-y-12">
                 <x-leadership.section-heading>
                     <x-slot name="title">Notre Bureau</x-slot>
-                    <x-slot name="description">Au cœur de la vie quotidienne de notre Association, les membres du Bureau sont les porte-parole de l'AGEPAC.</x-slot>
+                    <x-slot name="description">
+                        Au cœur de la vie quotidienne de notre Association, les membres du Bureau sont les porte-parole
+                        de l’AGEPAC.
+                    </x-slot>
                 </x-leadership.section-heading>
 
                 <ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
@@ -162,7 +165,10 @@
             <div class="space-y-12">
                 <x-leadership.section-heading>
                     <x-slot name="title">Notre Conseil</x-slot>
-                    <x-slot name="description">Le Conseil de l'AGEPAC est constitué de Représentants de Promotions et d'Anciens Présidents. Ils votent des motions en dehors des Assemblées Générales.</x-slot>
+                    <x-slot name="description">
+                        Le Conseil de l’AGEPAC est constitué de Représentants de Promotions et d’Anciens Présidents. Ils
+                        votent des motions en dehors des Assemblées Générales.
+                    </x-slot>
                 </x-leadership.section-heading>
 
                 <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
@@ -238,7 +244,7 @@
 
                     <x-leadership.card-simple
                         name="Jérôme Walrave"
-                        title="Ancien Président 20&#8209;20"
+                        title="Ancien Président 2002&#8209;2006"
                     />
 
                     <x-leadership.card-simple
@@ -247,23 +253,23 @@
                     />
 
                     <x-leadership.card-simple
-                        name="Benjamin Payet"
-                        title="Ancien Président 20&#8209;20"
-                    />
-
-                    <x-leadership.card-simple
                         name="Pierre Petaux"
-                        title="Ancien Président 20&#8209;20"
+                        title="Ancien Président 2008&#8209;2010"
                     />
 
                     <x-leadership.card-simple
                         name="Timoté Dufour"
-                        title="Ancien Président 2010&#8209;2017"
+                        title="Ancien Président 2010&#8209;2014"
+                    />
+
+                    <x-leadership.card-simple
+                        name="Benjamin Payet"
+                        title="Ancien Président 2014&#8209;2016"
                     />
 
                     <x-leadership.card-simple
                         name="Damien Lacombe"
-                        title="Ancien Président 2017&#8209;2019"
+                        title="Ancien Président 2016&#8209;2019"
                     />
 
                     <x-leadership.card-simple
