@@ -80,7 +80,7 @@
                         photo="{{ asset('media/leadership/hugo-clarke-wing-wide.jpg') }}"
                         alt="Hugo Clarke-Wing, in uniform, smiling at the camera"
                     >
-                        L’AGEPAC — au-delà d’être une force de persuasion aux côtés de nos divers partenaires — c’est
+                        L’AGEPAC — au-delà d’être une force de proposition aux côtés de nos divers partenaires — c’est
                         une association de pilotes qui partagent les mêmes valeurs d’excellence et une passion pour
                         l’aéronautique sous toute ses formes.
                     </x-testimonial>

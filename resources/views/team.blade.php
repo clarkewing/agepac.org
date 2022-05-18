@@ -25,8 +25,7 @@
                         name="Hugo Clarke-Wing"
                         title="Président"
                         promotion="EPL/S 2015"
-                        job="CDB PixAir Survey"
-{{--                        twitter-url="https://twitter.com/HugoClarkeWing"--}}
+                        job="OPL Transavia France"
                         linkedin-url="https://www.linkedin.com/in/mrhugo"
                     >
                         <x-slot name="description">
@@ -52,7 +51,7 @@
                         name="Adrián Lucq-Bibiloni"
                         title="Secrétaire Général"
                         promotion="EPL/U 2018"
-                        job="Directeur de la Gestion de Production ENAC"
+                        job="Chef de Division Gestion de Production ENAC"
                         linkedin-url="https://www.linkedin.com/in/adrian-lucq/"
                     >
                         <x-slot name="description">
@@ -66,7 +65,6 @@
                         name="Slim Khouadja"
                         title="Trésorier"
                         promotion="EPL/S 2017"
-                        job="CDB PixAir Survey"
                         linkedin-url="https://www.linkedin.com/in/slim-khouadja-9688b8154/"
                     >
                         <x-slot name="description">
@@ -80,7 +78,7 @@
                         name="Marek Mádl"
                         title="Responsable Communication"
                         promotion="CP ATPL 2015"
-                        job="Instructeur Club Aéronautique d'Annemasse"
+                        job="OPL Transavia France"
                         linkedin-url="https://www.linkedin.com/in/marekmadl/"
                     >
                         <x-slot name="description">
@@ -107,7 +105,7 @@
                         name="Julien Thomasson"
                         title="Responsable Emploi et Réseau"
                         promotion="EPL/U 2019"
-                        job="Instructeur Aéroclub Les Ailes Toulousaines"
+                        job="OPL Ryanair"
                         linkedin-url="https://www.linkedin.com/in/julien-thomasson-876314133/"
                     >
                         <x-slot name="description">
@@ -130,6 +128,7 @@
                         name="Paul Viviant"
                         title="Responsable Formation"
                         promotion="EPL/S 2015"
+                        job="OPL Transavia France"
                     >
                         <x-slot name="description">
                             Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
@@ -225,6 +224,7 @@
                     <x-leadership.card-simple
                         name="Tom Guedj"
                         title="Responsable Promotion EPL/S 2019"
+                        photo="{{ asset('media/leadership/tom-guedj-rp.jpg') }}"
                     />
 
                     <x-leadership.card-simple
