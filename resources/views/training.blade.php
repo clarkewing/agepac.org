@@ -42,21 +42,31 @@
                         <x-slot name="title">L’ATPL théorique</x-slot>
                     </x-feature-section-header>
 
-                    <p class="mt-8 text-base text-justify text-gray-600">
-                        Les neuf premiers mois de la formation EPL sont consacrés à l’ATPL théorique sur le campus
-                        principal de l’ENAC à Toulouse. Cette formation est dispensée par des enseignants experts dans
-                        leur domaine (chercheurs, ingénieurs ou même médecins). Les EPL ont aussi accès à un matériel
-                        varié tel qu’un laboratoire moteurs ou même des simulateurs utilisés pour la formation des
-                        contrôleurs aériens (qui sont exploités au cours de la formation). Ainsi, les apprentis pilotes
-                        vivent pendant cette période auprès des aiguilleurs du ciel et des ingénieurs, leur permettant
-                        ainsi de mieux découvrir les autres acteurs de leur futur environnement professionnel. Toutes
-                        ces expériences surpassant les prérequis réglementaires permettent aux EPL de parfaire leur
-                        compréhension du fonctionnement du monde aéronautique. Tous les EPL finissent la partie
-                        théorique en passant le test d’anglais FCL.055D de l’OACI. De plus, ils suivent trois heures de
-                        cours d’anglais par semaine pendant la théorie puis quatre semaines de cours intensifs durant la
-                        pratique. Lors de la formation en vol, les communications radio sont effectuées principalement
-                        en anglais afin de préparer les EPL à évoluer dans un environnement international.
-                    </p>
+                    <div class="mt-8 text-base text-justify text-gray-600 space-y-2">
+                        <p>
+                            Après les joies de la sélection, et les premières sensations de vol du stage planeur organisé
+                            par l’AGEPAC avant de débuter la formation, il est temps de retourner une dernière fois sur les
+                            chaises d’étudiant. Avant de monter dans un avion de l’ENAC, il faut acquérir toutes les
+                            connaissances nécessaires au pilote, et plus encore. Apprendre la navigation, le droit aérien,
+                            la météo, le fonctionnement d’un moteur etc, c’est l’objectif de l’ATPL théorique que nous
+                            passons en 10 mois à Toulouse.
+                        </p>
+                        <p>
+                            Avec l’aide d’une vingtaine de professeurs tous spécialistes de leur domaine, du pilote de
+                            chasse au chef de tour de contrôle parisien en passant par les pilotes Air France de long
+                            courrier, les élèves pilotes affinent leurs connaissances dans les 14 domaines de l’ATPL bien
+                            au-delà des simples exigences de l’examen.
+                        </p>
+                        <p>
+                            En parallèle, les EPL commencent à toucher du doigt les enjeux pratiques de leur métier avec des
+                            préparations de vol et des séances de simulateur de pilotage, de l’avion léger à l’A320 en
+                            passant par l’ATR 42. La formation sur le campus toulousain de l’ENAC permet aussi de comprendre
+                            les contraintes des autres acteurs du monde aéronautique opérationnel grâce à la cohabitation
+                            avec les ingénieurs, techniciens et contrôleurs, et la formation EPL inclut d’ailleurs diverses
+                            simulations de contrôle, des visites d’ateliers de mécanique et de chaîne d’assemblage d’avions
+                            de ligne.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -79,13 +89,10 @@
                 <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div class="lg:col-start-2">
                         <x-feature-section-header>
-                            <x-slot name="title">La phase VFR</x-slot>
+                            <x-slot name="title">La phase de vol à vue</x-slot>
                             <x-slot name="description">
-                                Cette phase est constituée de deux modules — maniabilité et navigation — permettant
-                                l’acquisition des compétences nécessaires afin d’obtenir la licence de pilote commercial
-                                (CPL).<br>
-                                A l’issue du passage du CPL, les EPL commenceront alors leur formation aux instruments
-                                sur monomoteur (IR/SE).
+                                Une fois les certificats théoriques en poche, les EPL sont divisés en groupes réduits
+                                pour partir dans leurs centres de formation pratique respectifs.
                             </x-slot>
                         </x-feature-section-header>
 
@@ -98,84 +105,91 @@
                         <p class="mt-8 text-lg leading-6 font-medium text-gray-900">
                             Module maniabilité
                         </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Le module de maniabilité (32h de vol) permet à l’élève pilote de se familiariser avec le
-                            TB20 et d’assimiler les techniques de pilotage élémentaires.
+                        <div class="mt-2 text-base text-justify text-gray-600 space-y-2">
+                            <p>
+                                La formation commence par l’apprentissage de la “mania”&nbsp;: il se décompose en 2 parties
+                                sur 2 avions différents. Les élèves pilotes commencent par le Velis Electro, un avion
+                                léger entièrement électrique sur lequel ils apprennent à décoller, atterrir, monter,
+                                descendre, virer, réagir en cas de panne, de décrochage… C’est là qu’on apprend
+                                réellement à “piloter” l’avion, et à communiquer avec les services de contrôle aérien
+                                en une dizaine d’heures.
+                            </p>
+                            <p>
+                                Une fois les bases du pilotage acquises sur le Velis, les EPL doivent reproduire tous
+                                les exercices vus précédemment sur le TB20, un avion beaucoup plus lourd, puissant,
+                                rapide et complexe. C’est sur cet avion que se déroule la majorité de la formation des
+                                élèves pilotes de l’ENAC et ils doivent donc maîtriser son pilotage sur le bout des
+                                doigts en une trentaine d’heures.
+                            </p>
+                            <div class="lg:hidden py-2">
+                                <img
+                                    class="w-full rounded-lg shadow-xl"
+                                    src="{{ asset('media/lacher-solo.jpg') }}"
+                                    alt="An EPL getting splashed by his classmates following his first solo flight"
+                                />
+                            </div>
+                            <p>
+                                C’est d’autant plus crucial étant donné que les EPL vont être “lâchés” durant cette
+                                phase&nbsp;: pour la première fois ils vont voler seuls, sous l’œil attentif de leur
+                                instructeur au sol, ils devront ramener l’avion par eux même grâce à leurs seules
+                                compétences.
+                            </p>
+                        </div>
+
+                        <p class="mt-8 text-lg leading-6 font-medium text-gray-900">
+                            Module Advanced UPRT
                         </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Il s’agira alors d’effectuer des exercices tels que des décrochages, des tours de piste, du
-                            vol moteur réduit, des changements de configuration, des exercices de panne…, autant
-                            d’exercices qui lui permettront de disposer de compétences et réflexes indispensables à la
-                            conduite d’un vol de manière sûre.
-                        </p>
-                        <img
-                            class="lg:hidden mt-4 w-full rounded-lg shadow-xl"
-                            src="{{ asset('media/lacher-solo.jpg') }}"
-                            alt="An EPL getting splashed by his classmates following his first solo flight"
-                        />
-                        <p class="mt-4 text-base text-justify text-gray-600">
-                            Le “lâcher solo” intervient une fois que l’instructeur estime son niveau suffisant afin de
-                            voler seul. Une alternance de vols solos (tours de piste et vols locaux) et de vols avec
-                            instructeur débute alors.
-                        </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Un test en vol (Progress Check) a lieu à la fin de ce module afin de vérifier que le niveau
-                            de l’élève est en adéquation avec les exigences de l’ENAC et lui permet alors d’accéder au
-                            module de navigation.
-                        </p>
+                        <div class="mt-2 text-base text-justify text-gray-600 space-y-2">
+                            <p>
+                                L’Upset Prevention and Recovery Training avancé est la phase la plus courte de la
+                                formation, mais n’en est pas moins importante.
+                            </p>
+                            <div class="lg:hidden py-2">
+                                <img
+                                    class="w-full rounded-lg shadow-xl"
+                                    src="{{ asset('media/cap10-startup.jpg') }}"
+                                    alt="A CAP 10 aircraft starting up"
+                                />
+                            </div>
+                            <p>
+                                C’est au cours de 3h de vols sur le CAP10, un avion français sur lequel se sont formés
+                                de nombreux pilotes de voltige, que les EPL découvrent les positions inusuelles avancées
+                                telles que les vrilles, et surtout comment en sortir et éviter d’y entrer. C’est aussi
+                                l’occasion d’affiner son pilotage en profitant de la technicité du train classique, et
+                                en effectuant des figures de voltige de base comme la boucle ou le baquet.
+                            </p>
+                        </div>
 
                         <p class="mt-8 text-lg leading-6 font-medium text-gray-900">
                             Module navigation
                         </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Au début de ce deuxième module l’élève pilote dispose d’une solide base de pilotage et a
-                            maintenant assez de disponibilité afin de gérer d’autres aspects d’un vol VFR.<br>
-                            L’élève se familiarisera dans un premier temps avec une méthode de navigation qui lui
-                            permettra de gérer de manière efficace son vol entre deux terrains différents à travers la
-                            gestion de différents éléments tels que les automatismes, le carburant, la trajectoire, les
-                            communications radio…
-                        </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Une fois cette méthode acquise, l’instructeur l'amènera en dehors de sa zone de confort en
-                            navigant vers des terrains très différents (haute densité de trafic, pistes courtes, plans
-                            d’approche particuliers…) tout en introduisant la gestion de situations inhabituelles et de
-                            pannes.
-                        </p>
-{{--                        <img--}}
-{{--                            class="lg:hidden mt-4 w-full rounded-lg shadow-xl"--}}
-{{--                            src="{{ asset('media/be58-epl-instruments-band.jpg') }}"--}}
-{{--                            alt="A group of four EPL students playing musical instruments in front of a BE58 aircraft"--}}
-{{--                        />--}}
-                        <p class="mt-4 text-base text-justify text-gray-600">
-                            Tout au long de ce module de navigation, la formation des EPL est réalisée de manière à ce
-                            qu’ils acquièrent les compétences attendues d’un pilote professionnel. Une attention est
-                            particulièrement accordée à ce que la rigueur et l’optimisation soient toujours présentes
-                            dans leurs actions.
-                        </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Le TB20 est par ailleurs une machine très évoluée (pas variable, train rentrant, pilote
-                            automatique…) qui leur permet de se rapprocher le plus possible de l’avion sur lequel ils
-                            évolueront professionnellement dans quelques années.
-                        </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Ce module de navigation est aussi marqué par le passage d’un autre test en vol propre à
-                            l’ENAC dont la réussite permet de débuter les navigations solos (9h au total). Parmi
-                            celles-ci aura lieu la mémorable navigation solo de 300Nm nécessaire afin de se présenter au
-                            CPL.
-                        </p>
-                        <img
-                            class="lg:hidden mt-4 w-full rounded-lg shadow-xl"
-                            src="{{ asset('media/tb20-vfr-map.jpg') }}"
-                            alt="An EPL student in the cockpit reviewing his VFR map during a navigation flight"
-                        />
-                        <p class="mt-4 text-base text-justify text-gray-600">
-                            Les EPL profitent également pendant ce module du simulateur FNPT2 TB20 de l’ENAC mis à leur
-                            disposition afin de se familiariser avec le vol sans visibilité avant d’effectuer ces mêmes
-                            exercices en vol. [Image simu en IMC]
-                        </p>
-                        <p class="mt-2 text-base text-justify text-gray-600">
-                            Le passage du CPL marque alors la fin de ce module et de cette phase.
-                        </p>
+                        <div class="mt-2 text-base text-justify text-gray-600 space-y-2">
+                            <p>
+                                Maintenant que les EPL savent piloter un avion complexe, gérer les pannes et pertes de
+                                contrôle et communiquer en fréquence, il faut apprendre la navigation. Aller d’un point
+                                A à un point B, c'est le cœur du métier de pilote de ligne, et cela implique tout un lot
+                                de compétences. Les élèves pilotes vont d’abord se familiariser avec la préparation et
+                                la conduite d’un vol à la carte, à gérer leur carburant, corriger le temps de vol en
+                                tenant compte du vent, du trafic, et de toutes les contraintes liées à l’espace aérien
+                                complexe dans lequel ils évoluent.
+                            </p>
+                            <div class="lg:hidden py-2">
+                                <img
+                                    class="w-full rounded-lg shadow-xl"
+                                    src="{{ asset('media/tb20-vfr-map.jpg') }}"
+                                    alt="An EPL student in the cockpit reviewing his VFR map during a navigation flight"
+                                />
+                            </div>
+                            <p>
+                                À la navigation de base va ensuite s’ajouter l’utilisation des systèmes comme le GPS ou
+                                le pilote automatique, les aérodromes à forte densité de trafic, puis les exercices face
+                                à l’imprévu lorsqu’on est loin de son aérodrome d’origine&nbsp;: les pannes en campagne et
+                                déroutements vont améliorer la réactivité et la prise de décision des EPL avant qu’ils
+                                ne partent seuls en navigation pour une petite vingtaine d’heures de navigations en solo
+                                au dessus de parties inconnues du territoire. Au total, plus de cinquante heures de
+                                navigation VFR seront effectuées par chaque EPL avant de passer au vol aux instruments.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -194,12 +208,12 @@
                                 src="{{ asset('media/lacher-solo.jpg') }}"
                                 alt="An EPL getting splashed by his classmates following his first solo flight"
                             />
-{{--                            <img--}}
-{{--                                class="mx-auto lg:rounded-lg lg:shadow-xl"--}}
-{{--                                width="490"--}}
-{{--                                src="{{ asset('media/be58-epl-instruments-band.jpg') }}"--}}
-{{--                                alt="A group of four EPL students playing musical instruments in front of a BE58 aircraft"--}}
-{{--                            />--}}
+                            <img
+                                class="mx-auto lg:rounded-lg lg:shadow-xl"
+                                width="490"
+                                src="{{ asset('media/cap10-startup.jpg') }}"
+                                alt="A CAP 10 aircraft starting up"
+                            />
                             <img
                                 class="mx-auto lg:rounded-lg lg:shadow-xl"
                                 width="490"
@@ -216,27 +230,47 @@
             <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div class="relative">
                     <x-feature-section-header>
-                        <x-slot name="title">La phase PPPI</x-slot>
+                        <x-slot name="title">La phase IRSE</x-slot>
                     </x-feature-section-header>
 
-                    <p class="mt-8 text-base text-justify text-gray-600">
-                        Avant de débuter l'entraînement IFR, les stagiaires entreprennent un stage de perfectionnement
-                        au pilotage en position inusuelle durant lequel ils découvrent un avion à train classique, le
-                        CAP10, ainsi que la voltige élémentaire. Ils valident ainsi l’Advanced UPRT avec un programme
-                        bien plus riche que  celui requis par la réglementation Aircrew, avec un total de 11 heures de
-                        vol.
-                    </p>
+                    <div class="mt-8 text-base text-justify text-gray-600 space-y-2">
+                        <p>
+                            Avoir la tête dans les nuages, c’est bien, en faire son métier c’est mieux. Désormais à
+                            l’aise avec le pilotage, il est temps pour les EPL de faire un premier pas dans le monde
+                            professionnel, là où les pilotes n’attendent pas les tempêtes de ciel bleu pour
+                            décoller. Mais pas de panique ! Avant de se lancer pour de bon, passage au simulateur
+                            obligatoire pour appréhender les subtilités du vol aux instruments sur une réplique de
+                            cockpit du TB20.
+                        </p>
+                        <p>
+                            Les élèves pilotes se familiarisent avec les cartes et les procédures utilisées par les
+                            pilotes en compagnie aérienne et apprennent à naviguer sans repères visuels. Avec 25
+                            heures de <span class="italic">simu</span> (dont une heure d’évaluation), les EPL ont
+                            l’expérience pour partir un peu partout et par (presque) toutes les conditions
+                            météorologiques.
+                        </p>
+                        <p>
+                            Pendant 40h, ils sillonnent la France et en profitent pour s’habituer à parler anglais à
+                            la radio. Comme d’habitude, un test vient valider les compétences acquises.
+                        </p>
+                        <p>
+                            Et tant qu’à faire, un pilote sachant travailler par visibilité réduite peut bien
+                            travailler de nuit, non ? Dans une atmosphère incomparable, les élèves réalisent 5
+                            heures de vol nocturne, découvrant ainsi les joies des horaires décalés mais surtout
+                            la magie nouvelle d’un ciel étoilé.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-{{--                    <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />--}}
+                <div class="mt-10 -mx-4 relative lg:mt-0">
+                    {{--                        <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />--}}
 
                     <div class="relative space-y-6 lg:space-y-10 px-4 sm:px-6 lg:px-0">
                         <img
                             class="mx-auto rounded-lg shadow-xl"
                             width="490"
-                            src="{{ asset('media/cap10-startup.jpg') }}"
-                            alt="A CAP 10 aircraft starting up"
+                            src="{{ asset('media/tb20-imc-curtain.jpg') }}"
+                            alt="View from inside TB20 cockpit with instrument training curtain pulled"
                         />
                     </div>
                 </div>
@@ -248,27 +282,42 @@
                 <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div class="lg:col-start-2">
                         <x-feature-section-header>
-                            <x-slot name="title">La phase IRSE</x-slot>
+                            <x-slot name="title">La phase CPL</x-slot>
                         </x-feature-section-header>
 
-                        <p class="mt-8 text-base text-justify text-gray-600">
-                            La phase IFR débute par 25 heures de simulateur sur lequel les EPL apprennent les techniques
-                            élémentaires, procédures et la navigation sur le TB20, un avion sur lequel ils commencent à
-                            développer de l’expérience. L'entraînement se poursuit ensuite par 40 heures de vol pour
-                            développer les connaissances et compétences nécessaires à la conduite efficace du vol en
-                            espace congestionné. Cette phase contient deux tests internes.
-                        </p>
+                        <div class="mt-8 text-base text-justify text-gray-600 space-y-2">
+                            <p>
+                                Retour au vol à vue. Eh oui, être pilote c’est savoir s’adapter ! Forts de leur
+                                expérience (désormais conséquente) sur TB20, les élèves pilotes repartent en navigations
+                                plus classiques. Mais cette fois, il n’est plus vraiment question d’apprendre à piloter
+                                ou à se repérer.
+                            </p>
+                            <p>
+                                Non, cette phase vise à renforcer le professionnalisme de futurs commandants de bord.
+                                Chaque vol est l’occasion de réviser ou faire pour la première fois des exercices&nbsp;: des
+                                pannes, des déroutements, souvent les deux en même temps, pour préparer l’examen du CPL
+                                (Commercial Pilot Licence) et aiguiser l’une des compétence clés d’un pilote
+                                professionnel&nbsp;: la prise de décision.
+                            </p>
+                            <p>
+                                Au-delà, c’est aussi l’occasion pour les EPL, plus expérimentés que jamais, de repartir
+                                en solo et réaliser des navigations plus ambitieuses, dont une de minimum 300 NM
+                                (environ 550 km). Une phase courte mais riche en émotions et en souvenirs, ponctuée par
+                                le passage du CPL, premier examen officiel, avec à la clé la première licence
+                                professionnelle.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-{{--                        <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />--}}
+                        {{--                        <x-pattern.dots class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" />--}}
 
                         <div class="relative space-y-6 lg:space-y-10 px-4 sm:px-6 lg:px-0">
                             <img
                                 class="mx-auto rounded-lg shadow-xl"
                                 width="490"
-                                src="{{ asset('media/tb20-imc-curtain.jpg') }}"
-                                alt="View from inside TB20 cockpit with instrument training curtain pulled"
+                                src="{{ asset('media/tb20-landing.jpg') }}"
+                                alt="A TB20 seen landing on a runway"
                             />
                         </div>
                     </div>
@@ -283,17 +332,31 @@
                         <x-slot name="title">La phase IRME</x-slot>
                     </x-feature-section-header>
 
-                    <p class="mt-8 text-base text-justify text-gray-600">
-                        Pendant trois mois, 25 heures de simulateur et 25 heures de vol, les élèves découvrent les
-                        opérations multimoteurs sur le Beechcraft Baron 58 équipé de la dernière avionique Garmin TXi.
-                    </p>
-                    <p class="mt-2 text-base text-justify text-gray-600">
-                        Les deux principaux objectifs de cette phase sont de gagner en confiance vis-à-vis du pilotage
-                        d’un puissant bimoteur et de découvrir les premières problématiques liées aux opérations en
-                        compagnie aérienne. Les stagiaires passent quatre examens en vol pendant cette phase, comprenant
-                        deux tests internes, la Qualification de Classe (QC) et la Qualification de vol aux instruments
-                        sur Multimoteur (IRME PBN).
-                    </p>
+                    <div class="mt-8 text-base text-justify text-gray-600 space-y-2">
+                        <p>
+                            Les EPL ont à présent fait le tour du TB20 et s’attaquent à plus gros, plus lourd, plus
+                            rapide. Sur le Beechcraft Baron 58, ils expérimentent le vol sur bimoteur tout en revenant
+                            au vol aux instruments.
+                        </p>
+                        <p>
+                            Là encore, un passage de 15 heures sur simulateur permet de se rafraîchir la mémoire sur les
+                            procédures IFR (Instrument Flight Rules), et assimiler le pilotage d’un nouvel avion, doté
+                            d’une avionique ultra moderne Garmin G500 TXi. Après un examen en simulateur, les élèves
+                            peuvent enfin décoller, avec cette fois deux moteurs et donc deux fois plus de manettes à
+                            manipuler.
+                        </p>
+                        <p>
+                            En se formant aux pannes moteurs pendant toutes les phases du vol, ils apprennent à gérer
+                            des situations de propulsion asymétrique et font un pas de plus vers l’aviation commerciale.
+                        </p>
+                        {{-- TODO: fill in appropriate number of hours --}}
+                        <p>
+                            La QC MEP (qualification de classe multimoteur à pistons) et l’IRME (qualification de vol
+                            aux instruments sur multimoteur) sont deux examens officiels qui viennent clôturer cette
+                            phase de xx heures, au cours de laquelle les EPL mettent à profit les capacités de cet avion
+                            exceptionnel pour s’évader encore plus loin.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -319,14 +382,32 @@
                             <x-slot name="title">La phase MCC/JOC</x-slot>
                         </x-feature-section-header>
 
-                        <p class="mt-8 text-base text-justify text-gray-600">
-                            Les EPL terminent leur formation par une phase de MCC (Multi Crew Cooperation) et JOC (Jet
-                            Orientation Course) de 60 heures sur le campus de Toulouse. Celle-ci s’effectue sur un
-                            FNPTII-MCC A320. L’ENAC insiste sur l’importance d’un volume horaire supérieur à celui
-                            requis par le règlement afin d’assurer une parfaite assimilation des procédures de vol en
-                            équipage et ainsi faire face aux différentes situations inhérentes au transport de passager
-                            et fret.
-                        </p>
+                        <div class="mt-8 text-base text-justify text-gray-600 space-y-2">
+                            <p>
+                                Souvent considérée comme la phase la plus intéressante de la formation, la MCC est la
+                                culmination de la formation EPL&nbsp;: transformant les élèves pilotes compétents sur avions
+                                monopilotes en pilotes de ligne capable de travailler en équipage.
+                            </p>
+                            <p>
+                                En effet, les avions commerciaux, plus grands, plus rapides, plus complexes, nécessitent
+                                la coopération de deux pilotes, qui ont des parcours différents et qui bien souvent ne
+                                se connaissent préalablement pas. La dernière étape de formation pour un EPL est donc de
+                                se former aux techniques de vol en équipage au cours d’un stage MCC/JOC (Multi-Crew
+                                Cooperation / Jet Orientation Course), qui lui permettra de s’intégrer parfaitement dans
+                                n’importe quel cockpit.
+                            </p>
+                            <p>
+                                Pour cela, retour à Toulouse sur le campus principal de l’ENAC, et c’est sur un
+                                simulateur Airbus A320 certifié, que se déroulent les 60 heures de cette phase. Assis un
+                                coup à droite, un coup à gauche, les élèves pilotes alternent en binôme les différentes
+                                fonctions d’un pilote en équipage tout en découvrant le pilotage d’un avion commercial
+                                répandu dans le monde entier.
+                            </p>
+                            <p>
+                                En excédant largement les exigences horaires réglementaires de ce stage, l’ENAC assure
+                                aux EPL une préparation optimale aux défis présentés par le transport aérien commercial.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -342,6 +423,18 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="mx-auto mt-12 sm:mt-16 lg:mt-24 max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8">
+                <x-feature-section-header>
+                    <x-slot name="title">
+                        Et voilà, c’est fini. Ou plutôt&nbsp;: tout commence.
+                    </x-slot>
+                    <x-slot name="description" class="max-w-prose mx-auto">
+                        À ce stade, chaque EPL a déjà des milliers de choses à raconter, mais il lui reste encore à
+                        prendre son envol et construire sa propre histoire.
+                    </x-slot>
+                </x-feature-section-header>
             </div>
         </div>
     </div>
