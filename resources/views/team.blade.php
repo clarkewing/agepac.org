@@ -55,9 +55,9 @@
                         linkedin-url="https://www.linkedin.com/in/adrian-lucq/"
                     >
                         <x-slot name="description">
-                            Maître de l’efficacité, Adrián a su trouver le parfait équilibre entre rédaction de comptes-
-                            rendus et pause piscine. Mais ne vous laissez pas berner par son sourire charmeur, ses
-                            doodles mensuels sauront vous agacer.
+                            Maître de l’efficacité, Adrián a su trouver le parfait équilibre entre rédaction de
+                            comptes-rendus et pause piscine. Mais ne vous laissez pas berner par son sourire charmeur,
+                            ses doodles mensuels sauront vous agacer.
                         </x-slot>
                     </x-leadership.card-detailed>
 
