@@ -155,7 +155,8 @@
                         linkedin-url="https://www.linkedin.com/in/morgane-maillet-309541180/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Longtemps impliquée dans l’associatif, Morgane a rejoint le bureau de l’AGEPAC en 2020.
+                            Depuis, elle concocte des évènements aux petits oignons pour EPLs, petits et grands.
                         </x-slot>
                     </x-leadership.card-detailed>
                 </ul>
