@@ -142,7 +142,10 @@
                         linkedin-url="https://www.linkedin.com/in/théophile-pellissier/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Tombé dans la marmite de l’aviation dès sa naissance, Théophile aime avoir son mot à dire
+                            sur tous les sujets de l’association. Lobbyist en herbe, il s’occupe tout particulièrement
+                            des relations avec nos partenaires, qu’ils soient compagnies aériennes, syndicats,
+                            industriels…
                         </x-slot>
                     </x-leadership.card-detailed>
 
