@@ -131,7 +131,7 @@
                             <p>
                                 C’est d’autant plus crucial étant donné que les EPL vont être “lâchés” durant cette
                                 phase&nbsp;: pour la première fois ils vont voler seuls, sous l’œil attentif de leur
-                                instructeur au sol, ils devront ramener l’avion par eux même grâce à leurs seules
+                                instructeur au sol, ils devront ramener l’avion par eux-mêmes grâce à leurs seules
                                 compétences.
                             </p>
                         </div>
@@ -181,13 +181,14 @@
                                 />
                             </div>
                             <p>
-                                À la navigation de base va ensuite s’ajouter l’utilisation des systèmes comme le GPS ou
-                                le pilote automatique, les aérodromes à forte densité de trafic, puis les exercices face
-                                à l’imprévu lorsqu’on est loin de son aérodrome d’origine&nbsp;: les pannes en campagne et
-                                déroutements vont améliorer la réactivité et la prise de décision des EPL avant qu’ils
-                                ne partent seuls en navigation pour une petite vingtaine d’heures de navigations en solo
-                                au dessus de parties inconnues du territoire. Au total, plus de cinquante heures de
-                                navigation VFR seront effectuées par chaque EPL avant de passer au vol aux instruments.
+                                À la navigation de base vont ensuite s’ajouter l’utilisation des systèmes comme le GPS
+                                ou le pilote automatique, les aérodromes à forte densité de trafic, puis les exercices
+                                face à l’imprévu lorsqu’on est loin de son aérodrome d’origine&nbsp;: les pannes en campagne
+                                et déroutements vont améliorer la réactivité et la prise de décision des EPL avant
+                                qu’ils ne partent seuls en navigation pour une petite vingtaine d’heures de navigations
+                                en solo au dessus de parties inconnues du territoire. Au total, plus de cinquante heures
+                                de navigation VFR seront effectuées par chaque EPL avant de passer au vol aux
+                                instruments.
                             </p>
                         </div>
                     </div>
@@ -296,14 +297,14 @@
                                 Non, cette phase vise à renforcer le professionnalisme de futurs commandants de bord.
                                 Chaque vol est l’occasion de réviser ou faire pour la première fois des exercices&nbsp;: des
                                 pannes, des déroutements, souvent les deux en même temps, pour préparer l’examen du CPL
-                                (Commercial Pilot Licence) et aiguiser l’une des compétence clés d’un pilote
+                                (Commercial Pilot Licence) et aiguiser l’une des compétences clés d’un pilote
                                 professionnel&nbsp;: la prise de décision.
                             </p>
                             <p>
-                                Au-delà, c’est aussi l’occasion pour les EPL, plus expérimentés que jamais, de repartir
-                                en solo et réaliser des navigations plus ambitieuses, dont une de minimum 300 NM
-                                (environ 550 km). Une phase courte mais riche en émotions et en souvenirs, ponctuée par
-                                le passage du CPL, premier examen officiel, avec à la clé la première licence
+                                C’est aussi l’occasion pour les EPL, plus expérimentés que jamais, de repartir en solo
+                                et réaliser des navigations plus ambitieuses, dont une de minimum 300 NM (environ
+                                550&nbsp;km). Une phase courte mais riche en émotions et en souvenirs, ponctuée par le
+                                passage du CPL, premier examen officiel, avec à la clé la première licence
                                 professionnelle.
                             </p>
                         </div>
@@ -349,11 +350,10 @@
                             En se formant aux pannes moteurs pendant toutes les phases du vol, ils apprennent à gérer
                             des situations de propulsion asymétrique et font un pas de plus vers l’aviation commerciale.
                         </p>
-                        {{-- TODO: fill in appropriate number of hours --}}
                         <p>
                             La QC MEP (qualification de classe multimoteur à pistons) et l’IRME (qualification de vol
                             aux instruments sur multimoteur) sont deux examens officiels qui viennent clôturer cette
-                            phase de xx heures, au cours de laquelle les EPL mettent à profit les capacités de cet avion
+                            phase de 30 heures, au cours de laquelle les EPL mettent à profit les capacités de cet avion
                             exceptionnel pour s’évader encore plus loin.
                         </p>
                     </div>
@@ -384,9 +384,9 @@
 
                         <div class="mt-8 text-base text-justify text-gray-600 space-y-2">
                             <p>
-                                Souvent considérée comme la phase la plus intéressante de la formation, la MCC est la
-                                culmination de la formation EPL&nbsp;: transformant les élèves pilotes compétents sur avions
-                                monopilotes en pilotes de ligne capable de travailler en équipage.
+                                Souvent considérée comme la phase la plus intéressante de la formation, la MCC parachève
+                                la formation EPL&nbsp;: transformant les élèves pilotes compétents sur avions monopilotes en
+                                pilotes de ligne capable de travailler en équipage.
                             </p>
                             <p>
                                 En effet, les avions commerciaux, plus grands, plus rapides, plus complexes, nécessitent
@@ -398,7 +398,7 @@
                             </p>
                             <p>
                                 Pour cela, retour à Toulouse sur le campus principal de l’ENAC, et c’est sur un
-                                simulateur Airbus A320 certifié, que se déroulent les 60 heures de cette phase. Assis un
+                                simulateur Airbus A320 certifié que se déroulent les 60 heures de cette phase. Assis un
                                 coup à droite, un coup à gauche, les élèves pilotes alternent en binôme les différentes
                                 fonctions d’un pilote en équipage tout en découvrant le pilotage d’un avion commercial
                                 répandu dans le monde entier.
