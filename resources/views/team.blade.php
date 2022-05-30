@@ -144,8 +144,7 @@
                         <x-slot name="description">
                             Tombé dans la marmite de l’aviation dès sa naissance, Théophile aime avoir son mot à dire
                             sur tous les sujets de l’association. Lobbyist en herbe, il s’occupe tout particulièrement
-                            des relations avec nos partenaires, qu’ils soient compagnies aériennes, syndicats,
-                            industriels…
+                            des relations avec nos partenaires.
                         </x-slot>
                     </x-leadership.card-detailed>
 
