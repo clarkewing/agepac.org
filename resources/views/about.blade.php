@@ -14,7 +14,7 @@
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
             <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:order-2 lg:px-0">
                 <!-- Content area -->
-                <div class="lg:pt-20">
+                <div class="pt-6 lg:pt-20">
                     <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
                         Notre mission
                     </h2>
