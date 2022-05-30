@@ -106,7 +106,8 @@
                         linkedin-url="https://www.linkedin.com/in/julien-thomasson-876314133/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Mordu d’aviation, Julien est un ingénieur aéronautique reconverti en pilote. Depuis 2020, il
+                            est à la tête de nos échanges avec nos employeurs partenaires.
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -117,7 +118,8 @@
                         linkedin-url="https://www.linkedin.com/in/tom-g-06b8a0123/"
                     >
                         <x-slot name="description">
-                            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                            Fort d’un esprit de collectivité, Tom a dès le début de sa formation été impliqué dans les
+                            cours de BIA. Depuis 2021, il seconde Thomas au pôle Emploi et Réseau.
                         </x-slot>
                     </x-leadership.card-detailed>
 
