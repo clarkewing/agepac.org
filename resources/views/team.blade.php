@@ -81,7 +81,7 @@
                     >
                         <x-slot name="description">
                             Expert en instruction à la tchèque et en SOP’s polonaises, Marek cache également d’autres
-                            talents. Il a su raviver les couleurs de l’AGEPAC par ses vidéos d’aviation.
+                            talents. Il a su raviver les couleurs de l’AGEPAC à l’aide de ses vidéos d’aviation.
                         </x-slot>
                     </x-leadership.card-detailed>
 
