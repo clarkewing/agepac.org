@@ -292,7 +292,7 @@
                             <div class="relative flex-none inline-block h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden ring-4 ring-dandelion-500">
                                 <img
                                     class="h-full w-full object-cover"
-                                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+                                    src="{{ asset('media/leadership/tom-guedj.jpg') }}"
                                     alt="Tom Guedj"
                                 />
                             </div>

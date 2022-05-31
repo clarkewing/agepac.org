@@ -158,10 +158,17 @@
             </p>
             <div class="-mx-4 mt-6 flex flex-wrap justify-center">
                 @foreach(config('marketing.employers_showcase') as $employer)
+                    @php
+                        if (File::exists(public_path('media/logos/' . Str::slug($employer) . '-logo-wide-gray-400.svg'))) {
+                            $src = asset('media/logos/' . Str::slug($employer) . '-logo-wide-gray-400.svg');
+                        } else {
+                            $src = asset('media/logos/' . Str::slug($employer) . '-logo-gray-400.svg');
+                        }
+                    @endphp
                     <div class="flex-none flex p-4 justify-center w-1/3 md:w-1/4 lg:w-1/5">
                         <img
                             class="h-12"
-                            src="{{ asset('media/logos/' . Str::slug($employer) . '-logo-gray-400.svg') }}"
+                            src="{{ $src }}"
                             alt="{{ $employer }}"
                         >
                     </div>
