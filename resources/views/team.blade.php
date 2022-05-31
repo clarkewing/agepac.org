@@ -106,8 +106,9 @@
                         linkedin-url="https://www.linkedin.com/in/julien-thomasson-876314133/"
                     >
                         <x-slot name="description">
-                            Mordu d’aviation, Julien est un ingénieur aéronautique reconverti en pilote. Depuis 2020, il
-                            est à la tête de nos échanges avec nos employeurs partenaires.
+                            Mordu d’aviation, Julien travaille depuis 2020 à établir des partenariats avec des
+                            compagnies partenaires. Si vous souhaitez travailler avec des EPL il sera votre
+                            interlocuteur privilégié!
                         </x-slot>
                     </x-leadership.card-detailed>
 
@@ -118,8 +119,8 @@
                         linkedin-url="https://www.linkedin.com/in/tom-g-06b8a0123/"
                     >
                         <x-slot name="description">
-                            Fort d’un esprit de collectivité, Tom a dès le début de sa formation été impliqué dans les
-                            cours de BIA. Depuis 2021, il seconde Thomas au pôle Emploi et Réseau.
+                            Poussé par l’envie de transmettre sa passion, Tom a dès le début de sa formation EPL
+                            dispensé des cours BIA. Depuis 2021, il seconde Julien au pôle Emploi et Réseau.
                         </x-slot>
                     </x-leadership.card-detailed>
 
