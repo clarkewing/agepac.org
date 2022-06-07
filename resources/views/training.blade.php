@@ -76,7 +76,7 @@
                         <img
                             class="mx-auto rounded-lg shadow-xl"
                             width="490"
-                            src="https://images.unsplash.com/photo-1596495868755-0e705ed41be4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80"
+                            src="{{ asset('media/students-in-classroom.jpg') }}"
                             alt=""
                         />
                     </div>
