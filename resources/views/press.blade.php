@@ -1,7 +1,7 @@
 <x-app-layout title="Presse & médias">
     <x-slot
         name="header"
-        backdrop="https://images.unsplash.com/photo-1543242594-c8bae8b9e708?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=60"
+        backdrop="{{ asset('media/cameraman-in-sim.jpg') }}"
         alt="A camera crew filming an interview"
     >
         <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
