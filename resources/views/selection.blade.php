@@ -41,11 +41,11 @@
                                 <x-heroicon-o-download class="-ml-1 mr-3 h-5 w-5" />
                                 Télécharger le Guide EPL
                             </a>
-                            <p class="mt-3 text-sm text-gray-500">
-                                Si tu trouves le Guide EPL utile, n'hésite pas à
-                                <a href="#" class="font-medium text-gray-900 underline">faire un don</a>.
-                                Les dons permettent à l'AGEPAC d'exister.
-                            </p>
+{{--                            <p class="mt-3 text-sm text-gray-500">--}}
+{{--                                Si tu trouves le Guide EPL utile, n'hésite pas à--}}
+{{--                                <a href="#" class="font-medium text-gray-900 underline">faire un don</a>.--}}
+{{--                                Les dons permettent à l'AGEPAC d'exister.--}}
+{{--                            </p>--}}
                         </div>
                     </div>
 

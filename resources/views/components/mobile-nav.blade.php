@@ -72,18 +72,20 @@
                             </a>
                         </div>
                     </div>
-                    <div class="py-6 px-5">
-                        <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-700 hover:bg-red-600">
-                            Faire un don
-                        </a>
-                        <p class="mt-6 text-center text-sm font-medium text-gray-500">
-                            Ancien élève ? Encore en formation ?
-                        </p>
-                        <div class="mt-1 flex justify-center">
-                            <a href="https://members.agepac.org" class="flex items-center px-2 text-vermilion-400 hover:text-vermilion-500">
-                                <x-heroicon-o-user-circle class="shrink-0 h-5 w-5" />
-                                <span class="ml-2">Espace Membres</span>
-                            </a>
+                    <div class="py-6 px-5 space-y-6">
+{{--                        <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-700 hover:bg-red-600">--}}
+{{--                            Faire un don--}}
+{{--                        </a>--}}
+                        <div>
+                            <p class="text-center text-sm font-medium text-gray-500">
+                                Ancien élève ? Encore en formation ?
+                            </p>
+                            <div class="mt-1 flex justify-center">
+                                <a href="https://members.agepac.org" class="flex items-center px-2 text-vermilion-400 hover:text-vermilion-500">
+                                    <x-heroicon-o-user-circle class="shrink-0 h-5 w-5" />
+                                    <span class="ml-2">Espace Membres</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
