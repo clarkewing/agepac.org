@@ -1,17 +1,184 @@
 <?php
 
 return [
+    'board' => [
+        [
+            'name' => 'Hugo Clarke-Wing',
+            'title' => 'Président',
+            'promotion' => 'EPL/S 2015',
+            'job' => 'OPL Transavia France',
+            'linkedin' => 'https://www.linkedin.com/in/mrhugo',
+            'bio' => 'Après un premier mandat au Bureau de l’AGEPAC entre 2019 et 2020 en tant que Secrétaire Général, Hugo est élu Président en 2020. Il est incapable de sourire les yeux ouverts.',
+        ],
+        [
+            'name' => 'Jeff Mhanna',
+            'title' => 'Vice-Président',
+            'promotion' => 'EPL/S 2017',
+            'job' => 'Instructeur Aéroclub Les Alcyons',
+            'linkedin' => 'https://www.linkedin.com/in/jeff-mhanna-865a351bb/',
+            'bio' => 'Responsable Évènements de 2019 à 2020, Jeff accède au poste de Vice-Président en 2020. Tel grand-parrain, tel petit-filleul : Il est incapable de sourire les yeux ouverts.',
+        ],
+        [
+            'name' => 'Adrián Lucq-Bibiloni',
+            'title' => 'Secrétaire Général',
+            'promotion' => 'EPL/U 2018',
+            'job' => 'Chef de Division Gestion de Production ENAC',
+            'linkedin' => 'https://www.linkedin.com/in/adrian-lucq/',
+            'bio' => 'Maître de l’efficacité, depuis le début de son mandat en 2020 Adrián a su trouver le parfait équilibre entre rédaction de comptes-rendus et pause piscine.',
+        ],
+        [
+            'name' => 'Slim Khouadja',
+            'title' => 'Trésorier',
+            'promotion' => 'EPL/S 2017',
+            'job' => '',
+            'linkedin' => 'https://www.linkedin.com/in/slim-khouadja-9688b8154/',
+            'bio' => 'Collectionneur de t-shirts lors des évènements, Slim a toujours eu le flair des bon plans. Trésorier depuis 2020, Slim est responsable des comptes de l’association.',
+        ],
+        [
+            'name' => 'Marek Mádl',
+            'title' => 'Responsable Communication',
+            'promotion' => 'CP ATPL 2015',
+            'job' => 'OPL Transavia France',
+            'linkedin' => 'https://www.linkedin.com/in/marekmadl/',
+            'bio' => 'Expert en instruction à la tchèque et en SOP’s polonaises, Marek cache également d’autres talents. Il a su raviver les couleurs de l’AGEPAC à l’aide de ses vidéos d’aviation.',
+        ],
+        [
+            'name' => 'Félix Fouache',
+            'title' => 'Community Manager',
+            'promotion' => 'EPL/S 2017',
+            'job' => 'Instructeur Cretan Eagle Aviation',
+            'linkedin' => 'https://www.linkedin.com/in/felixfouache/',
+            'bio' => 'Devenu célèbre grâce à la rédaction du premier recueil de memes de païlotes, depuis 2021 Félix met sa plume au service de l’AGEPAC sur les réseaux sociaux.',
+        ],
+        [
+            'name' => 'Julien Thomasson',
+            'title' => 'Responsable Emploi et Réseau',
+            'promotion' => 'EPL/U 2019',
+            'job' => 'OPL Ryanair',
+            'linkedin' => 'https://www.linkedin.com/in/julien-thomasson-876314133/',
+            'bio' => 'Mordu d’aviation, Julien travaille depuis 2020 à établir des partenariats avec des compagnies partenaires. Si vous souhaitez travailler avec des EPL il sera votre interlocuteur privilégié!',
+        ],
+        [
+            'name' => 'Tom Guedj',
+            'title' => 'Responsable adjoint Emploi et Réseau',
+            'promotion' => 'EPL/S 2019',
+            'job' => '',
+            'linkedin' => 'https://www.linkedin.com/in/tom-g-06b8a0123/',
+            'bio' => 'Poussé par l’envie de transmettre sa passion, Tom a dès le début de sa formation EPL dispensé des cours BIA. Depuis 2021, il seconde Julien au pôle Emploi et Réseau.',
+        ],
+        [
+            'name' => 'Paul Viviant',
+            'title' => 'Responsable Formation',
+            'promotion' => 'EPL/S 2015',
+            'job' => 'OPL Transavia France',
+            'linkedin' => '',
+            'bio' => 'Toujours investi dans l’éducation, Paul consacre le peu de temps libre qui lui reste en dehors de son agrégation de mathématiques au suivi de la formation des EPL.',
+        ],
+        [
+            'name' => 'Théophile Pellissier',
+            'title' => 'Liaison Partenaires Industriels',
+            'promotion' => 'EPL/S 2017',
+            'job' => '',
+            'linkedin' => 'https://www.linkedin.com/in/théophile-pellissier/',
+            'bio' => 'Tombé dans la marmite de l’aviation dès sa naissance, Théophile est lobbyist en herbe, et il s’occupe des relations avec nos partenaires depuis 2020.',
+        ],
+        [
+            'name' => 'Morgane Maillet',
+            'title' => 'Responsable Événements',
+            'promotion' => 'EPL/S 2018',
+            'job' => '',
+            'linkedin' => 'https://www.linkedin.com/in/morgane-maillet-309541180/',
+            'bio' => 'Longtemps impliquée dans l’associatif, Morgane a rejoint le bureau de l’AGEPAC en 2020. Depuis, elle concocte des évènements aux petits oignons pour EPLs, petits et grands.',
+        ],
+    ],
 
-    /*
-    |--------------------------------------------------------------------------
-    | Application Name
-    |--------------------------------------------------------------------------
-    |
-    | This value is the name of your application. This value is used when the
-    | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
-    |
-    */
+    'council' => [
+        [
+            'name' => 'Florent Vitry',
+            'title' => 'Responsable Promotions EPL/S 2009 & antérieures',
+        ],
+        [
+            'name' => 'César Chroscik',
+            'title' => 'Responsable Promotion EPL/S 2010',
+        ],
+        [
+            'name' => 'Julian Krummel',
+            'title' => 'Responsable Promotion EPL/S 2011',
+        ],
+        [
+            'name' => 'Jacques Preiss',
+            'title' => 'Responsable Promotion EPL/S 2012',
+        ],
+        [
+            'name' => 'Erwan Marlier',
+            'title' => 'Responsable Promotion EPL/S 2013',
+        ],
+        [
+            'name' => 'Timothée Barry',
+            'title' => 'Responsable Promotion EPL/S 2014',
+        ],
+        [
+            'name' => 'Théo Chamiot-Prieur',
+            'title' => 'Responsable Promotion EPL/S 2015',
+        ],
+        [
+            'name' => 'Thomas Izarn',
+            'title' => 'Responsable Promotion EPL/S 2016',
+        ],
+        [
+            'name' => 'Cédric Darchicourt',
+            'title' => 'Responsable Promotion EPL/S 2017',
+        ],
+        [
+            'name' => 'Lilian Berquier',
+            'title' => 'Responsable Promotion EPL/S 2018',
+        ],
+        [
+            'name' => 'Tom Guedj',
+            'title' => 'Responsable Promotion EPL/S 2019',
+            'photo' => asset('media/leadership/tom-guedj-rp.jpg'),
+        ],
+        [
+            'name' => 'Jonathan Ganter',
+            'title' => 'Responsable Promotion EPL/S 2020'
+        ],
+        [
+            'name' => 'David Robert',
+            'title' =>'Responsable Promotions EPL/U & EPL/P'
+        ],
+        [
+            'name' => 'Sofian Lehoucq',
+            'title' => 'Responsable Promotions Cursus Préparatoire ATPL',
+        ],
+        [
+            'name' => 'Jérôme Walrave',
+            'title' =>'Ancien Président 2002&#8209;2006',
+        ],
+        [
+            'name' => 'Simon Spriet',
+            'title' =>'Ancien Président 2006&#8209;2008',
+        ],
+        [
+            'name' => 'Pierre Petaux',
+            'title' =>'Ancien Président 2008&#8209;2010',
+        ],
+        [
+            'name' => 'Timoté Dufour',
+            'title' =>'Ancien Président 2010&#8209;2014',
+        ],
+        [
+            'name' => 'Benjamin Payet',
+            'title' =>'Ancien Président 2014&#8209;2016',
+        ],
+        [
+            'name' => 'Damien Lacombe',
+            'title' =>'Ancien Président 2016&#8209;2019',
+        ],
+        [
+            'name' => 'Simon Louyot',
+            'title' =>'Ancien Président 2019&#8209;2020',
+        ],
+    ],
 
     'employers_showcase' => [
         // 'Aegean Airlines',

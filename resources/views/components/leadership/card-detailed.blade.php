@@ -26,7 +26,7 @@
                     <p class="text-shiraz-600">{{ $title }}</p>
                     <p class="text-base text-gray-600">
                         {{ $promotion }}
-                        @isset($job) – {{ $job }} @endisset
+                        @if($job ?? null) – {{ $job }} @endif
                     </p>
                 </div>
                 <div class="text-base">
@@ -35,7 +35,7 @@
                     </p>
                 </div>
                 <ul class="relative flex space-x-5">
-                    @isset($twitterUrl)
+                    @if($twitterUrl ?? null)
                         <li>
                             <a href="{{ $twitterUrl }}" target="_blank" class="text-gray-400 hover:text-gray-500">
                                 <span class="sr-only">Twitter</span>
@@ -44,8 +44,8 @@
                                 </svg>
                             </a>
                         </li>
-                    @endisset
-                    @isset($linkedinUrl)
+                    @endif
+                    @if($linkedinUrl ?? null)
                         <li>
                             <a href="{{ $linkedinUrl }}" target="_blank" class="text-gray-400 hover:text-gray-500">
                                 <span class="sr-only">LinkedIn</span>
@@ -54,7 +54,7 @@
                                 </svg>
                             </a>
                         </li>
-                    @endisset
+                    @endif
                 </ul>
             </div>
         </div>

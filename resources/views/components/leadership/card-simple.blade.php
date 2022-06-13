@@ -1,5 +1,5 @@
 @php
-    if (! isset($photo)) {
+    if (! isset($photo) || empty($photo)) {
         $slugPhotoPath = 'media/leadership/' . Str::of($name)->slug() . '.jpg';
 
         if (File::exists(public_path($slugPhotoPath))) {
