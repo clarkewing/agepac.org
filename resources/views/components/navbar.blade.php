@@ -148,23 +148,13 @@
                     <a
                         href="https://members.agepac.org"
                         @class([
-                            'w-full rounded-full p-1 flex lg:hidden text-base focus:outline-none focus:ring-2 focus:ring-vermilion-400',
-                            'text-vermilion-400 hover:text-vermilion-500' => ! $isOverlayed,
-                            'text-white hover:text-white/75' => $isOverlayed,
+                            'w-full border border-transparent rounded-full lg:rounded-md p-1 lg:py-2 lg:px-4 flex items-center justify-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-vermilion-400',
+                            'text-vermilion-400 lg:text-white lg:bg-vermilion-400 hover:text-vermilion-500 lg:hover:text-white lg:hover:bg-vermilion-500' => ! $isOverlayed,
+                            'text-white hover:text-white/75 lg:bg-white lg:bg-opacity-10 lg:hover:bg-opacity-20' => $isOverlayed,
                         ])
                     >
-                        <x-heroicon-o-user-circle class="shrink-0 h-7 w-7" />
-                    </a>
-                    <a
-                        href="https://members.agepac.org"
-                        @class([
-                            'w-full border border-transparent rounded-md py-2 px-4 hidden lg:flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-vermilion-400',
-                            'text-white bg-vermilion-400 hover:bg-vermilion-500' => ! $isOverlayed,
-                            'text-white bg-white bg-opacity-10 hover:bg-opacity-20' => $isOverlayed,
-                        ])
-                    >
-                        <x-heroicon-o-user-circle class="shrink-0 h-5 w-5" />
-                        <span class="hidden lg:inline ml-2">Espace Membres</span>
+                        <x-heroicon-o-user-circle class="shrink-0 h-7 w-7 lg:h-5 lg:w-5" />
+                        <span class="sr-only lg:not-sr-only lg:ml-2">Espace Membres</span>
                     </a>
                 </div>
             @endunless
