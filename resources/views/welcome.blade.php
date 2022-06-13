@@ -17,7 +17,7 @@
                     <div class="sm:text-center lg:text-left">
                         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                             <span class="block text-universe xl:inline">L’association des</span>
-                            <span class="block text-dandelion-500 xl:inline">Élèves Pilotes de Ligne</span>
+                            <span class="block text-wedgewood-500 xl:inline">Élèves Pilotes de Ligne</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                             L’AGEPAC est l’Association Générale des Élèves Pilotes de l’Aviation Civile.
@@ -125,7 +125,11 @@
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                     <div class="absolute inset-0">
-                        <img class="h-full w-full object-cover object-top" src="{{ asset('media/cone-head.jpg') }}" alt="People working on laptops">
+                        <img
+                            class="h-full w-full object-cover object-top"
+                            src="{{ asset('media/big-group-be58.jpg') }}"
+                            alt="Large group of EPLs posing in front of a Beechcraft Baron 58"
+                        />
                         <div class="absolute inset-0 bg-wedgewood-700" style="mix-blend-mode: multiply;"></div>
                     </div>
                     <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
