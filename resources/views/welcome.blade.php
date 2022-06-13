@@ -167,7 +167,7 @@
                     @endphp
                     <div class="flex-none flex p-4 justify-center w-1/3 md:w-1/4 lg:w-1/5">
                         <img
-                            class="h-12"
+                            class="h-full max-h-12 w-auto"
                             src="{{ $src }}"
                             alt="{{ $employer }}"
                         >
