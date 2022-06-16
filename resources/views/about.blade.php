@@ -100,45 +100,51 @@
                 </h2>
             </div>
             <dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
-                <div>
-                    <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
-                            <x-heroicon-s-user-group class="h-6 w-6" aria-hidden="true" />
-                        </div>
-                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Solidarité</p>
-                    </dt>
-                    <dd class="mt-2 text-base text-gray-500">Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.</dd>
-                </div>
+                <x-dl-item title="Passion">
+                    <x-slot name="icon">
+                        <x-heroicon-s-sparkles class="h-6 w-6" aria-hidden="true"/>
+                    </x-slot>
 
-                <div>
-                    <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
-                            <x-heroicon-s-sparkles class="h-6 w-6" aria-hidden="true" />
-                        </div>
-                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Excellence</p>
-                    </dt>
-                    <dd class="mt-2 text-base text-gray-500">Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.</dd>
-                </div>
+                    La passion pour l’aviation sous toutes ses formes nous suit tout au long de nos vies et nous pousse
+                    sans cesse à nous investir.
+                </x-dl-item>
 
-                <div>
-                    <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
-                            <x-heroicon-s-globe class="h-6 w-6" aria-hidden="true" />
-                        </div>
-                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Responsabilité</p>
-                    </dt>
-                    <dd class="mt-2 text-base text-gray-500">Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.</dd>
-                </div>
+                <x-dl-item title="Compagnonnage">
+                    <x-slot name="icon">
+                        <x-heroicon-s-user-group class="h-6 w-6" aria-hidden="true" />
+                    </x-slot>
 
-                <div>
-                    <dt>
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-vermilion-400 text-white">
-                            <x-fas-hands-helping class="h-6 w-6" aria-hidden="true" />
-                        </div>
-                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Partage</p>
-                    </dt>
-                    <dd class="mt-2 text-base text-gray-500">Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.</dd>
-                </div>
+                    Le chemin vers un cockpit n’étant pas tout tracé, la capacité d’adaptation de nos membres leur
+                    permet de découvrir de nouveaux horizons et d’appliquer leur savoir faire à diverses missions.
+                </x-dl-item>
+
+                <x-dl-item title="Résilience">
+                    <x-slot name="icon">
+                        <x-heroicon-s-fire class="h-6 w-6" aria-hidden="true" />
+                    </x-slot>
+
+                    Avec l’entraide et la cohésion au coeur de notre ADN, l’AGEPAC ne manque jamais une occasion de
+                    rassembler les générations autour de moments chaleureux et festifs.
+                </x-dl-item>
+
+                <x-dl-item title="Rayonnement">
+                    <x-slot name="icon">
+                        <x-heroicon-s-globe class="h-6 w-6" aria-hidden="true" />
+                    </x-slot>
+
+                    Portés par un esprit d’ouverture fort, nous avons à cœur d’exporter notre passion et nos compétences
+                    au service des différents acteurs de l’aérien, tout en portant haut les couleurs de l’ENAC.
+                </x-dl-item>
+
+                <x-dl-item title="Partage">
+                    <x-slot name="icon">
+                        <x-fas-hands-helping class="h-6 w-6" aria-hidden="true" />
+                    </x-slot>
+
+                    Forte de plus de 30 ans d’existence, notre association est un formidable outil de transmission
+                    d’expériences et d’héritage, que ce soit au sein de nos membres, ou en collaboration avec nos
+                    partenaires.
+                </x-dl-item>
             </dl>
         </div>
     </div>
