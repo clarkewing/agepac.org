@@ -50,7 +50,7 @@
                     @foreach(config('marketing.council') as $councilMember)
                         <x-leadership.card-simple
                             name="{{ $councilMember['name'] }}"
-                            title="{{ $councilMember['title'] }}"
+                            title="{!! $councilMember['title'] !!}"
                             photo="{{ $councilMember['photo'] ?? '' }}"
                         />
                     @endforeach
