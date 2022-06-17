@@ -5,7 +5,7 @@
         if (File::exists(public_path($slugPhotoPath))) {
             $photo = asset($slugPhotoPath);
         } else {
-            $photo = 'https://www.placecage.com/c/900/600';
+            $photo = asset('media/pilot-placeholder.svg');
         }
     }
 @endphp
