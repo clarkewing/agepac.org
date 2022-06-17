@@ -159,7 +159,7 @@
 
             <div class="mt-8 md:mt-0 md:order-1">
                 <p class="text-base text-gray-400">
-                    &copy; 2021 AGEPAC. Tous droits réservés.
+                    &copy; 2022 AGEPAC. Tous droits réservés.
                 </p>
 
                 <a href="/remembering" class="group mt-1 inline-flex items-center text-base">
