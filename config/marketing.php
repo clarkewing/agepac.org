@@ -136,7 +136,7 @@ return [
         [
             'name' => 'Tom Guedj',
             'title' => 'Responsable Promotion EPL/S 2019',
-            'photo' => asset('media/leadership/tom-guedj-rp.jpg'),
+            'photo' => '/media/leadership/tom-guedj-rp.jpg',
         ],
         [
             'name' => 'Jonathan Ganter',
