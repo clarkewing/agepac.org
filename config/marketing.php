@@ -245,4 +245,31 @@ return [
         // 'Wizz Air',
     ],
 
+    'fallen_epls' => [
+        [
+            'name' => 'Guillaume G.',
+            'promotion' => 'EPL 2006',
+            'death' => 'Octobre 2011',
+        ],
+        [
+            'name' => 'Pierre H.',
+            'promotion' => 'EPL 2008',
+            'death' => 'Juillet 2011',
+        ],
+        [
+            'name' => 'Nicolas B.',
+            'promotion' => 'EPL 2008',
+            'death' => 'Décembre 2009',
+        ],
+        [
+            'name' => 'Céline S.',
+            'promotion' => 'EPL 2004',
+            'death' => 'Aout 2004',
+        ],
+        [
+            'name' => 'Jean M.',
+            'promotion' => 'EPL A12',
+            'death' => 'Juillet 2000',
+        ],
+    ],
 ];

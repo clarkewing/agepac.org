@@ -27,3 +27,5 @@ Route::view('association/team', 'team');
 Route::view('contact', 'contact');
 
 Route::view('press', 'press');
+
+Route::view('remembering', 'remembering');

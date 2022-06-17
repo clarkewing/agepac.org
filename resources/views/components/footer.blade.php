@@ -20,12 +20,6 @@
                                     La Formation
                                 </a>
                             </li>
-
-{{--                            <li>--}}
-{{--                                <a href="#" class="text-base text-gray-300 hover:text-white">--}}
-{{--                                    Témoignages--}}
-{{--                                </a>--}}
-{{--                            </li>--}}
                         </ul>
                     </div>
                     <div class="mt-12 md:mt-0">
@@ -139,7 +133,7 @@
 {{--                </button>--}}
 {{--            </div>--}}
 {{--        </div>--}}
-        <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
+        <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-start md:justify-between">
             <div class="flex space-x-6 md:order-2">
                 <a href="https://www.linkedin.com/company/agepac/" class="text-gray-400 hover:text-gray-300">
                     <span class="sr-only">LinkedIn</span>
@@ -162,9 +156,17 @@
                     </svg>
                 </a>
             </div>
-            <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-                &copy; 2021 AGEPAC. Tous droits réservés.
-            </p>
+
+            <div class="mt-8 md:mt-0 md:order-1">
+                <p class="text-base text-gray-400">
+                    &copy; 2021 AGEPAC. Tous droits réservés.
+                </p>
+
+                <a href="/remembering" class="group mt-1 inline-flex items-center text-base">
+                    <span class="text-gray-400 group-hover:text-white">En hommage à nos EPL disparus</span>
+                    <x-fas-dove class="w-4 h-4 text-gray-500 group-hover:text-gray-300 ml-2" aria-hidden="true" />
+                </a>
+            </div>
         </div>
     </div>
 </footer>
