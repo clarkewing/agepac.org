@@ -114,8 +114,8 @@
                         <x-heroicon-s-user-group class="h-6 w-6" aria-hidden="true" />
                     </x-slot>
 
-                    Le chemin vers un cockpit n’étant pas tout tracé, la capacité d’adaptation de nos membres leur
-                    permet de découvrir de nouveaux horizons et d’appliquer leur savoir faire à diverses missions.
+                    Avec l’entraide et la cohésion au coeur de notre ADN, l’AGEPAC ne manque jamais une occasion de
+                    rassembler les générations autour de moments chaleureux et festifs.
                 </x-dl-item>
 
                 <x-dl-item title="Résilience">
@@ -123,8 +123,8 @@
                         <x-heroicon-s-fire class="h-6 w-6" aria-hidden="true" />
                     </x-slot>
 
-                    Avec l’entraide et la cohésion au coeur de notre ADN, l’AGEPAC ne manque jamais une occasion de
-                    rassembler les générations autour de moments chaleureux et festifs.
+                    Le chemin vers un cockpit n’étant pas tout tracé, la capacité d’adaptation de nos membres leur
+                    permet de découvrir de nouveaux horizons et d’appliquer leur savoir faire à diverses missions.
                 </x-dl-item>
 
                 <x-dl-item title="Rayonnement">
