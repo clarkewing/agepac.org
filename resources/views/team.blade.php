@@ -2,7 +2,7 @@
     <x-slot
         name="header"
         backdrop="{{ asset('media/auditorium-audience.jpg') }}"
-        alt="EPL graduates in uniform ddiscussing among themselves in auditorium seats"
+        alt="EPL graduates in uniform discussing among themselves in auditorium seats"
     >
         <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Notre équipe
@@ -15,8 +15,8 @@
                 <x-leadership.section-heading>
                     <x-slot name="title">Notre Bureau</x-slot>
                     <x-slot name="description">
-                        Au cœur de la vie quotidienne de notre Association, les membres du Bureau sont les porte-parole
-                        de l’AGEPAC.
+                        Au cœur de la vie quotidienne de notre Association, les membres du Bureau sont les
+                        porte&#8209;paroles de l’AGEPAC.
                     </x-slot>
                 </x-leadership.section-heading>
 

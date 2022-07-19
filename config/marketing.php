@@ -11,12 +11,12 @@ return [
             'bio' => 'Après un premier mandat au Bureau de l’AGEPAC entre 2019 et 2020 en tant que Secrétaire Général, Hugo est élu Président en 2020. Il est incapable de sourire les yeux ouverts.',
         ],
         [
-            'name' => 'Jeff Mhanna',
+            'name' => 'Hugo Bao',
             'title' => 'Vice-Président',
-            'promotion' => 'EPL/S 2017',
-            'job' => 'Instructeur Aéroclub Les Alcyons',
-            'linkedin' => 'https://www.linkedin.com/in/jeff-mhanna-865a351bb/',
-            'bio' => 'Responsable Évènements de 2019 à 2020, Jeff accède au poste de Vice-Président en 2020. Tel grand-parrain, tel petit-filleul : Il est incapable de sourire les yeux ouverts.',
+            'promotion' => 'CP ATPL 2019',
+            'job' => '',
+            'linkedin' => 'https://www.linkedin.com/in/hugo-bao-ba121418a/',
+            'bio' => 'Investi dans le bénévolat depuis son arrivée à l’ENAC, Hugo accède au poste de Vice-Président en 2022. Il est chargé d’assister le Président.',
         ],
         [
             'name' => 'Adrián Lucq-Bibiloni',
@@ -27,12 +27,20 @@ return [
             'bio' => 'Maître de l’efficacité, depuis le début de son mandat en 2020 Adrián a su trouver le parfait équilibre entre rédaction de comptes-rendus et pause piscine.',
         ],
         [
-            'name' => 'Slim Khouadja',
-            'title' => 'Trésorier',
-            'promotion' => 'EPL/S 2017',
+            'name' => 'Pierre Grézaud',
+            'title' => 'Secrétaire Général adjoint',
+            'promotion' => 'EPL/U 2021',
             'job' => '',
-            'linkedin' => 'https://www.linkedin.com/in/slim-khouadja-9688b8154/',
-            'bio' => 'Collectionneur de t-shirts lors des évènements, Slim a toujours eu le flair des bon plans. Trésorier depuis 2020, Slim est responsable des comptes de l’association.',
+            'linkedin' => '',
+            'bio' => 'Nouvellement élu secrétaire adjoint, Pierre va tenter de suivre le rythme d’Adrián, car si il est au moins aussi performant dans les pauses piscines, l’art des comptes-rendus s’acquiert avec le temps.',
+        ],
+        [
+            'name' => 'Aurélien Couturier',
+            'title' => 'Trésorier',
+            'promotion' => 'EPL/S 2019',
+            'job' => '',
+            'linkedin' => '',
+            'bio' => 'Même occuper le poste de trésorier après la crise du COVID ne fait pas peur à Aurélien. Avec lui les membres sont satisfaits ET remboursés.',
         ],
         [
             'name' => 'Marek Mádl',
@@ -41,14 +49,6 @@ return [
             'job' => 'OPL Transavia France',
             'linkedin' => 'https://www.linkedin.com/in/marekmadl/',
             'bio' => 'Expert en instruction à la tchèque et en SOP’s polonaises, Marek cache également d’autres talents. Il a su raviver les couleurs de l’AGEPAC à l’aide de ses vidéos d’aviation.',
-        ],
-        [
-            'name' => 'Félix Fouache',
-            'title' => 'Community Manager',
-            'promotion' => 'EPL/S 2017',
-            'job' => 'Instructeur Cretan Eagle Aviation',
-            'linkedin' => 'https://www.linkedin.com/in/felixfouache/',
-            'bio' => 'Devenu célèbre grâce à la rédaction du premier recueil de memes de païlotes, depuis 2021 Félix met sa plume au service de l’AGEPAC sur les réseaux sociaux.',
         ],
         [
             'name' => 'Julien Thomasson',
@@ -83,6 +83,14 @@ return [
             'bio' => 'Tombé dans la marmite de l’aviation dès sa naissance, Théophile est lobbyist en herbe, et il s’occupe des relations avec nos partenaires depuis 2020.',
         ],
         [
+            'name' => 'Thomas Salacroux',
+            'title' => 'Liaison adjoint Partenaires Industriels',
+            'promotion' => 'EPL/U 2021',
+            'job' => '',
+            'linkedin' => 'https://www.linkedin.com/in/thomas-salacroux-b28487141/',
+            'bio' => 'Allant du planeur, à l’aéroclub, à l’ATPL théorique, à l’ENAC, il semblait évident que Thomas allait rejoindre le Bureau tôt ou tard. Avec Théophile, il manie l’art du dialogue avec nos partenaires.',
+        ],
+        [
             'name' => 'Morgane Maillet',
             'title' => 'Responsable Événements',
             'promotion' => 'EPL/S 2018',
@@ -94,12 +102,8 @@ return [
 
     'council' => [
         [
-            'name' => 'Florent Vitry',
-            'title' => 'Responsable Promotions EPL/S 2009 & antérieures',
-        ],
-        [
             'name' => 'César Chroscik',
-            'title' => 'Responsable Promotion EPL/S 2010',
+            'title' => 'Responsable Promotions EPL/S 2010 & antérieures',
         ],
         [
             'name' => 'Julian Krummel',
@@ -126,7 +130,7 @@ return [
             'title' => 'Responsable Promotion EPL/S 2016',
         ],
         [
-            'name' => 'Cédric Darchicourt',
+            'name' => 'Victor Agopian',
             'title' => 'Responsable Promotion EPL/S 2017',
         ],
         [
@@ -134,20 +138,23 @@ return [
             'title' => 'Responsable Promotion EPL/S 2018',
         ],
         [
-            'name' => 'Tom Guedj',
+            'name' => 'Louis Geig',
             'title' => 'Responsable Promotion EPL/S 2019',
-            'photo' => '/media/leadership/tom-guedj-rp.jpg',
         ],
         [
             'name' => 'Jonathan Ganter',
             'title' => 'Responsable Promotion EPL/S 2020'
         ],
         [
-            'name' => 'David Robert',
+            'name' => 'Thomas Joffraud',
+            'title' => 'Responsable Promotion EPL/S 2021'
+        ],
+        [
+            'name' => 'Céline Rosier',
             'title' =>'Responsable Promotions EPL/U & EPL/P'
         ],
         [
-            'name' => 'Sofian Lehoucq',
+            'name' => 'Victor Krogmann',
             'title' => 'Responsable Promotions Cursus Préparatoire ATPL',
         ],
         [
