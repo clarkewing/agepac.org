@@ -34,6 +34,10 @@
         <!-- / Fathom -->
     </head>
     <body class="font-sans antialiased">
+        @if(today()->isBefore('2022-12-10'))
+            <x-banner />
+        @endif
+
         <div class="min-h-screen bg-gray-100">
             @isset($header)
                 @if($header->attributes->has('raw'))
