@@ -25,8 +25,8 @@
                 </p>
             </div>
             <div class="mt-2 w-full flex-shrink-0 sm:mt-0 sm:w-auto">
-                <x-button.gold class="inline-flex justify-center w-full sm:w-auto" href="https://www.billetweb.fr/le-bal-des-pilotes-gala-des-30-ans">
-                    Obtenir mes billets !
+                <x-button.gold class="inline-flex justify-center w-full sm:w-auto" href="https://gala.agepac.org/">
+                    En savoir plus
                 </x-button.gold>
             </div>
         </div>
