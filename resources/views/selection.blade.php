@@ -104,7 +104,10 @@
                             <x-slot name="title">Cursus EPL/U (Universitaire)</x-slot>
                             <!-- TODO: Remove badge in March 2023 -->
                             @if(today()->isBefore('2023-03-01'))
-                                <x-slot name="badge" class="bg-shiraz-600 text-white">Nouveau</x-slot>
+                                <x-slot name="badge" class="bg-shiraz-600 text-white">
+                                    Nouveau
+                                    <span class="absolute -top-36" id="new-epl-u-criteria"></span>
+                                </x-slot>
                             @endif
                             <x-slot name="description">
                                 Le cursus EPL/U (Universitaire) s’adresse à des candidats ayant débuté un cursus
