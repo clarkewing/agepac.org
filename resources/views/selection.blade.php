@@ -102,11 +102,17 @@
                         <x-feature-section-item>
                             <x-slot name="icon" class="bg-dandelion-300">U</x-slot>
                             <x-slot name="title">Cursus EPL/U (Universitaire)</x-slot>
+                            <!-- TODO: Remove badge in March 2023 -->
+                            @if(today()->isBefore('2023-03-01'))
+                                <x-slot name="badge" class="bg-shiraz-600 text-white">Nouveau</x-slot>
+                            @endif
                             <x-slot name="description">
                                 Le cursus EPL/U (Universitaire) s’adresse à des candidats ayant débuté un cursus
-                                universitaire depuis au moins 2 ans et détenteurs de l’ATPL théorique. Ils devront avoir
-                                déjà obtenu leur FCL.055D. Ils pourront rejoindre la formation directement en formation
-                                pratique, en commençant par le CPL, la licence de pilote commercial.
+                                universitaire depuis au moins 2 ans et détenteurs a minima d’une licence
+                                EASA LAPL (Light Aircraft Pilot License) sur avion, hélicoptère ou planeur
+                                — <span class="italic">la détention de l’ATPL(A) théorique n’étant plus obligatoire depuis 2022</span>.
+                                Les candidats devront avoir déjà obtenu leur FCL.055D. Ils rejoindront les EPL/S en
+                                formation théorique — <span class="italic">même s’ils sont déjà détenteurs de l’ATPL(A) théorique</span>.
                             </x-slot>
                         </x-feature-section-item>
 
