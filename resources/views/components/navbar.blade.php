@@ -76,12 +76,16 @@
                         </a>
                     </div>
                     <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-{{--                        <div class="flow-root">--}}
-{{--                            <a href="#" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">--}}
-{{--                                <x-heroicon-o-play class="shrink-0 h-6 w-6 text-gray-400" />--}}
-{{--                                <span class="ml-3">Présentation</span>--}}
-{{--                            </a>--}}
-{{--                        </div>--}}
+                        <div class="flow-root">
+                            <a
+                                href="https://youtu.be/g8d4rvT29z8"
+                                target="_blank"
+                                class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150"
+                            >
+                                <x-heroicon-o-play class="shrink-0 h-6 w-6 text-gray-400" />
+                                <span class="ml-3">Présentation</span>
+                            </a>
+                        </div>
 
                         <div class="flow-root">
                             <a href="https://www.enac.fr" target="_blank" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">
