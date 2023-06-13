@@ -30,7 +30,7 @@
         <!-- / Scripts -->
 
         <!-- Fathom - beautiful, simple website analytics -->
-        <script src="https://battery-stunning.agepac.org/script.js" data-site="KUNUHNAM" defer></script>
+        <script src="https://cdn.usefathom.com/script.js" data-site="KUNUHNAM" defer></script>
         <!-- / Fathom -->
     </head>
     <body class="font-sans antialiased">
