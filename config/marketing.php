@@ -192,7 +192,7 @@ return [
         [
             'name' => 'Hugo Clarke-Wing',
             'title' => 'Ancien Président 2020&#8209;2023',
-            'photo' => asset('media/leadership/hugo-clarke-wing-face.jpg'),
+            'photo' => '/media/leadership/hugo-clarke-wing-face.jpg',
         ],
     ],
 
