@@ -19,7 +19,7 @@
             </div>
 
             <footer class="mt-4">
-                <p class="text-base font-semibold text-cyan-200">{{ $author }}</p>
+                <p class="text-base font-semibold text-cyan-200">{!! $author !!}</p>
             </footer>
         </blockquote>
     </div>
