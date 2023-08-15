@@ -76,7 +76,7 @@
                 <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
                     <!-- Testimonial card-->
                     <x-testimonial
-                        author="Hugo Clarke-Wing, Président"
+                        author="Hugo Clarke-Wing, Ancien Président 2020&#8209;2023"
                         photo="{{ asset('media/leadership/hugo-clarke-wing-wide.jpg') }}"
                         alt="Hugo Clarke-Wing, in uniform, smiling at the camera"
                     >
