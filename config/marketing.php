@@ -96,7 +96,7 @@ return [
             'promotion' => 'EPL/U 2022',
             'job' => '',
             'linkedin' => '',
-            'bio' => 'Tellement à fond dans les événements qu’elle n’a pas eu le temps de rédiger une bio, Elisabeth seconde Morgane.',
+            'bio' => 'Après avoir participé à plusieurs événements, c’est assez naturellement qu’Elisabeth est venue à s’impliquer dans l’organisation à son tour en secondant Morgane depuis 2023.',
         ],
     ],
 
