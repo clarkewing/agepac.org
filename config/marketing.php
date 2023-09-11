@@ -24,7 +24,7 @@ return [
             'promotion' => 'EPL/U 2021',
             'job' => '',
             'linkedin' => '',
-            'bio' => 'Nouvellement élu secrétaire adjoint, Pierre va tenter de suivre le rythme d’Adrián, car si il est au moins aussi performant dans les pauses piscines, l’art des comptes-rendus s’acquiert avec le temps.',
+            'bio' => 'Nouvellement élu Secrétaire Général, après une année de découverte de l’association, Pierre va tenter de suivre le rythme de ses prédécesseurs. En équipe avec Céline, son rôle est de s’assurer de la bonne tenue administrative de l’AGEPAC.',
         ],
         [
             'name' => 'Céline Rosier',
