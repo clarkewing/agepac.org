@@ -34,7 +34,7 @@
                             </p>
                             <a
                                 class="mt-3 flex w-full sm:shrink-0 sm:inline-flex sm:w-auto items-center justify-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vermilion-400"
-                                href="{{ asset('media/guide-epl-2019.pdf') }}"
+                                href="{{ asset('media/guide-epl-2023.pdf') }}"
                                 target="_blank"
                                 download
                             >
