@@ -106,7 +106,7 @@
 {{--                    <fieldset class="w-full">--}}
 {{--                        <label for="language" class="sr-only">Langue</label>--}}
 {{--                        <div class="relative">--}}
-{{--                            <select id="language" name="language" class="appearance-none block w-full bg-none bg-gray-700 border border-transparent rounded-md py-2 pl-3 pr-10 text-base text-white focus:outline-none focus:ring-white focus:border-white sm:text-sm">--}}
+{{--                            <select id="language" name="language" class="appearance-none block w-full bg-none bg-gray-700 border border-transparent rounded-md py-2 pl-3 pr-10 text-base text-white focus:outline-hidden focus:ring-white focus:border-white sm:text-sm">--}}
 {{--                                <option>English</option>--}}
 {{--                                <option selected>Français</option>--}}
 {{--                            </select>--}}
@@ -128,7 +128,7 @@
 {{--                </p>--}}
 {{--            </div>--}}
 {{--            <div class="mt-4 lg:mt-0">--}}
-{{--                <button type="button" class="w-full bg-red-700 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">--}}
+{{--                <button type="button" class="w-full bg-red-700 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-red-600 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">--}}
 {{--                    Faire un don--}}
 {{--                </button>--}}
 {{--            </div>--}}

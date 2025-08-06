@@ -12,9 +12,9 @@
 
 <li>
     <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
-        <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+        <div class="aspect-3/2 sm:aspect-3/4">
             <img
-                class="object-cover object-top shadow-lg rounded-lg"
+                class="size-full object-cover object-top shadow-lg rounded-lg"
                 src="{{ $photo }}"
                 alt="{{ $name }}"
             />

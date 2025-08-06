@@ -17,8 +17,8 @@
     <!-- Side-by-side grid -->
     <div class="bg-white">
         <div id="contact" class="max-w-md mx-auto py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div class="divide-y divide-gray-200">
-                <section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contact-heading">
+            <div class="divide-y divide-gray-200 space-y-16">
+                <section class="pb-16 lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contact-heading">
                     <h2 id="contact-heading" class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
                         Contactez-nous
                     </h2>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="location-heading">
+                <section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="location-heading">
                     <h2 id="location-heading" class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Correspondance</h2>
                     <div class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
                         <div>

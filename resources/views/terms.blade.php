@@ -28,7 +28,7 @@
                 </h1>
             </div>
 
-            <x-markdown class="mt-6 prose prose-cyan prose-lg text-gray-500 mx-auto">
+            <x-markdown class="mt-12 prose prose-cyan prose-lg text-gray-500 mx-auto">
                 {!! $terms !!}
             </x-markdown>
         </div>

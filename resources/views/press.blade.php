@@ -16,8 +16,8 @@
 
     <div class="bg-white">
         <div class="max-w-md mx-auto py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div class="divide-y divide-gray-200">
-                <section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contacts-heading">
+            <div class="divide-y divide-gray-200 space-y-16">
+                <section class="pb-16 lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contacts-heading">
                     <h2 id="contacts-heading" class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
                         Contacts
                     </h2>
@@ -46,7 +46,7 @@
                     </div>
                 </section>
 
-                <section class="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="terms-heading">
+                <section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="terms-heading">
                     <h2 id="terms-heading" class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
                         Conditions générales
                     </h2>

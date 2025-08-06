@@ -25,7 +25,7 @@
                     <button
                         type="button"
                         @class([
-                            'rounded-md p-2 inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500',
+                            'rounded-md p-2 inline-flex items-center justify-center focus:outline-hidden focus:ring-2 focus:ring-inset focus:ring-blue-500',
                             'text-gray-400 hover:text-gray-500 hover:bg-gray-100' => ! $isOverlayed,
                             'text-white hover:text-white/75' => $isOverlayed,
                         ])
@@ -152,9 +152,9 @@
                     <a
                         href="https://members.agepac.org"
                         @class([
-                            'w-full border border-transparent rounded-full lg:rounded-md p-1 lg:py-2 lg:px-4 flex items-center justify-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-vermilion-400',
+                            'w-full border border-transparent rounded-full lg:rounded-md p-1 lg:py-2 lg:px-4 flex items-center justify-center text-base focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-vermilion-400',
                             'text-vermilion-400 lg:text-white lg:bg-vermilion-400 hover:text-vermilion-500 lg:hover:text-white lg:hover:bg-vermilion-500' => ! $isOverlayed,
-                            'text-white hover:text-white/75 lg:bg-white lg:bg-opacity-10 lg:hover:bg-opacity-20' => $isOverlayed,
+                            'text-white hover:text-white/75 lg:bg-white/10 lg:hover:bg-white/20' => $isOverlayed,
                         ])
                     >
                         <x-heroicon-o-user-circle class="shrink-0 h-7 w-7 lg:h-5 lg:w-5" />

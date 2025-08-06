@@ -53,7 +53,7 @@
             :aria-controls="$id('dropdown-button')"
             type="button"
             @class([
-                'rounded-md inline-flex items-center text-base font-medium focus:outline-none',
+                'rounded-md inline-flex items-center text-base font-medium focus:outline-hidden',
                 ...array_map(fn ($c) => 'hover:' . $c, explode(' ', $trigger->attributes->get('active-class') ?? 'text-gray-900'))
             ])
             :class="{'{{ $trigger->attributes->get('active-class') ?? 'text-gray-900' }}': open, '{{ $trigger->attributes->get('class') ?? 'text-gray-500' }}': ! open }"
@@ -77,7 +77,7 @@
             style="display: none;"
             class="absolute z-10 {{ $alignmentClasses }} mt-3 w-screen {{ $flyoutClasses }} px-4 md:px-0"
         >
-            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="rounded-lg shadow-lg ring-1 ring-black/5 overflow-hidden">
                 {{ $slot }}
             </div>
         </div>
