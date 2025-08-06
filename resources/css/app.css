@@ -5,6 +5,13 @@
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
+@layer base {
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+}
+
 @theme {
     --font-sans: 'Inter var', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
@@ -57,11 +64,4 @@
     --color-shiraz-900: oklch(0.254 0.0922 20.63);
 
     --color-blush: oklch(0.9873 0.0069 354.79);
-}
-
-@layer base {
-    button:not(:disabled),
-    [role="button"]:not(:disabled) {
-        cursor: pointer;
-    }
 }
