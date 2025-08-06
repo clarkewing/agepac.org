@@ -22,11 +22,11 @@
         <!-- / Fonts -->
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        @vite('resources/css/app.css')
         <!-- / Styles -->
 
         <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        @vite('resources/js/app.js')
         <!-- / Scripts -->
 
         <!-- Fathom - beautiful, simple website analytics -->
