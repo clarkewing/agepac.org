@@ -18,7 +18,7 @@
             <div
                 x-show="open"
                 x-transition.opacity
-                class="fixed inset-0 bg-black bg-opacity-50"
+                class="fixed inset-0 bg-black/50"
             ></div>
 
             <!-- Panel -->
@@ -36,7 +36,7 @@
                 <div
                     x-on:click.stop
                     x-trap.noscroll.inert="open"
-                    class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50"
+                    class="rounded-lg shadow-lg ring-1 ring-black/5 bg-white divide-y-2 divide-gray-50"
                 >
                     <div class="pt-5 pb-6 px-5">
                         <div class="flex items-center justify-between">
@@ -47,7 +47,7 @@
                                 <button
                                     type="button"
                                     @click="open = false"
-                                    class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                                    class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-hidden focus:ring-2 focus:ring-inset focus:ring-blue-500"
                                 >
                                     <span class="sr-only">Close menu</span>
                                     <x-heroicon-o-x class="h-6 w-6" />
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="py-6 px-5 space-y-6">
-{{--                        <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-700 hover:bg-red-600">--}}
+{{--                        <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-xs text-base font-medium text-white bg-red-700 hover:bg-red-600">--}}
 {{--                            Faire un don--}}
 {{--                        </a>--}}
                         <div>

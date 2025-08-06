@@ -24,7 +24,7 @@
                             Cette association de loi 1901 est constituée par les Élèves Pilotes de Ligne (EPL) issus de la formation ENAC.
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                            <div class="rounded-md shadow">
+                            <div class="rounded-md shadow-sm">
                                 <a
                                     href="/association"
                                     class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-700 md:py-4 md:text-lg md:px-10"
@@ -55,7 +55,7 @@
                 <span class="block text-wedgewood-600">Découvrez notre espace membres !</span>
             </h2>
             <div class="mt-8 flex lg:mt-0 lg:shrink-0">
-                <div class="inline-flex rounded-md shadow">
+                <div class="inline-flex rounded-md shadow-sm">
                     <a href="https://members.agepac.org" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wedgewood-600 hover:bg-wedgewood-700">
                         Rejoignez-nous
                     </a>
@@ -84,7 +84,7 @@
                             dès l’entrée dans le cursus EPL reconnu mondialement comme l’un des plus exigeants.
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                            <div class="rounded-md shadow">
+                            <div class="rounded-md shadow-sm">
                                 <a href="/epl/training" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-vermilion-400 hover:bg-vermilion-500 md:py-4 md:text-lg md:px-10">
                                     La Formation
                                 </a>
@@ -101,7 +101,7 @@
 {{--                        <x-pattern.dots-on-solid class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" />--}}
 
                         <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-{{--                            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wedgewood-500">--}}
+{{--                            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-wedgewood-500">--}}
                             <div class="relative block w-full bg-white rounded-lg overflow-hidden">
 {{--                                <span class="sr-only">Watch our video to learn more</span>--}}
                                 <img class="w-full" src="{{ asset('media/flightline.jpg') }}" alt="Vue des dérives de nombreux TB20 et d'un CAP10 de l'ENAC">
@@ -143,7 +143,7 @@
                         </p>
                         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div class="space-y-4 sm:mx-auto">
-                                <a href="mailto:recruitment@agepac.org" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-universe bg-white hover:bg-wedgewood-50 sm:px-8">
+                                <a href="mailto:recruitment@agepac.org" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-xs text-universe bg-white hover:bg-wedgewood-50 sm:px-8">
                                     Nous recruter
                                 </a>
                             </div>

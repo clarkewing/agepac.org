@@ -41,7 +41,7 @@
                                 src="{{ $header->attributes->get('backdrop') }}"
                                 alt="{{ $header->attributes->get('alt') }}"
                             />
-                            <div class="absolute inset-0 bg-gradient-to-l from-wedgewood-500 to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
+                            <div class="absolute inset-0 bg-linear-to-l from-wedgewood-500 to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
                         </div>
 
                         <!-- Navigation bar -->
