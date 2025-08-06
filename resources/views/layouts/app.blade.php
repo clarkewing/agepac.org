@@ -17,17 +17,8 @@
         <link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
         <meta name="theme-color" content="rgb(0, 10, 51)">
 
-        <!-- Fonts -->
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-        <!-- / Fonts -->
-
-        <!-- Styles -->
-        @vite('resources/css/app.css')
-        <!-- / Styles -->
-
-        <!-- Scripts -->
-        @vite('resources/js/app.js')
-        <!-- / Scripts -->
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Fathom - beautiful, simple website analytics -->
         <script src="https://cdn.usefathom.com/script.js" data-site="KUNUHNAM" defer></script>
